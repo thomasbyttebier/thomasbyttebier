@@ -1,0 +1,124 @@
+/*------------------------------------*\
+    #TYPE
+\*------------------------------------*/
+
+/**
+ * Typographical base selectors.
+ */
+
+
+
+
+
+/**
+ * The base typographic settings.
+ *
+ * 1) Enable Open Type features (ligatures, kerning).
+ */
+
+html {
+    font-family: Tisa, serif;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.38888888;
+    color: rgb(33, 33, 33);
+    -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -moz-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -moz-font-feature-settings: "kern=1, liga=1"; /* [1] */
+    -ms-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -o-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    text-transform: none;
+    padding-left: 1.72222222rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.625rem;
+}
+
+
+
+
+
+/**
+ * Headings generally should be bold. Let's also remove margins.
+ * 1) In line with the baseline grid of 25px.
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 1.38888888rem; /* [1] */
+}
+
+/**
+ * 1) Defaults back to 21px in most circumstances.
+ * 2) Default baseline grid of 25px.
+ */
+h1 {
+    font-size: 1.16666666rem; /* [1] */
+    line-height: 1.38888888rem; /* [2] */
+}
+
+h3 {
+    font-style: italic;
+}
+
+h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+
+
+
+blockquote {
+    border-left: 1px solid rgb(33, 33, 33);
+    padding-left: .7em;
+    margin-left: -.7em;
+    font-style: italic;
+}
+
+
+
+
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+	/**
+	 * 1) Creates positioned ancestor for "–" signs."
+	 */
+
+	ul li {
+		position: relative; /* [1] */
+	}
+
+	/**
+	 * 1) Inserts the "–" before the list items.
+	 * 2) Moves it a bit to the left.
+	 */
+
+	ul li:before {
+		content: "–"; /* [1] */
+		position: absolute; /* [2] */
+		left: -.9em; /* [2] */
+	}
+
+/**
+ * 1) Normal list-style-items are positioned a bit too far inside the margin.
+ *    This fixes that problem.
+ */
+
+ol {
+    list-style-position: inside; /* [1] */
+    margin-left: -.9em; /* [1] */
+}

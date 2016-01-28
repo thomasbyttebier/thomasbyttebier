@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    #FONT-FACE
+\*------------------------------------*/
+
+/**
+ * All web fonts are loaded here:
+ *
+ * 1. Tisa Web (subsetted via subsetter.com)
+ * 2. Tisa Web Italic (subsetted via subsetter.com)
+ * 3. Tisa Web Medium (subsetted via subsetter.com)
+ */
+
+
+
+
+
+/**
+ * Tisa by Mitja Miklavčič.
+ * https://www.fontshop.com/designers/mitja-miklavčič
+ */
+
+@font-face {
+  font-family: 'Tisa';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/tisaweb-subset.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Tisa';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/tisawebmedium-subset.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Tisa';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../assets/fonts/tisawebitalic-subset.woff) format("woff");
+}
