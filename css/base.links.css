@@ -3,29 +3,22 @@
 \*------------------------------------*/
 
 /**
- * Links are underlined.
+ * Links
  *
- * 1) Links get lighter on hover...
- * 2) and turn blue when active.
- * 
  */
 
 a {
 	color: inherit;
 	text-decoration: none;
-	background-image: linear-gradient(to top,
-	    rgba(0,0,0,0) 1%,
-	    rgba(0,0,0,.3) 1%,
-	    rgba(0,0,0,.3) 6%,
-	    rgba(0,0,0,0) 6%
-    	);
-	transition: all .1s ease;
+	border-bottom-color: rgb(33, 33, 33);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
 }
 
 a:hover {
-	opacity: .7; /* [1] */
+	border-bottom-width: 1px;
 }
 
 a:active {
-	color: rgb(58, 157, 250); /* [2] */
+	color: rgb(0, 0, 0); /* [2] */
 }

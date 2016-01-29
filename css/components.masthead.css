@@ -1,0 +1,39 @@
+/*------------------------------------*\
+    #MASTHEAD
+\*------------------------------------*/
+
+/**
+ * The website's main header.
+ */
+
+
+
+
+
+.c-masthead {  }
+
+    /**
+     * 1) Overwriting base.type.css
+     */
+
+    .c-masthead__line {
+        margin: 0; /* [1] */
+    }
+
+    /**
+     * 1) If it's an h1 element, overwrite base.type.css.
+     * 2) If it's no h1 element, make it bold.
+     */
+
+    .c-masthead__title {
+        font-size: inherit;
+        font-weight: 700; /* [2] */
+    }
+
+    /**
+     * 1) If it's an h2 element, unbolden it.
+     */
+
+    .c-masthead__subtitle {
+        font-weight: normal;
+    }

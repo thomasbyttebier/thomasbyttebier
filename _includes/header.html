@@ -1,14 +1,13 @@
-<header>
+<header class="c-masthead">
+        {% if page.no-title == true %}<h1 class="c-masthead__title c-masthead__line">{% else %}<p class="c-masthead__title">{% endif %}
+            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        {% if page.no-title == true %}</h1>{% else %}</p>{% endif %}
 
-    {% if page.no-title == true %}<h1>{% else %}<p>{% endif %}
-        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    {% if page.no-title == true %}</h1>{% else %}</p>{% endif %}
+        {% if page.no-title == true %}<h2 class="c-masthead__subtitle c-masthead__line">{% else %}<p class="c-masthead__subtitle">{% endif %}
+            Freelance designer
+        {% if page.no-title == true %}</h2>{% else %}</p>{% endif %}
 
-    {% if page.no-title == true %}<h2>{% else %}<p>{% endif %}
-        Freelance designer
-    {% if page.no-title == true %}</h2>{% else %}</p>{% endif %}
-
-    <p>
+    <p class="c-masthead__line">
         Apps, web sites, UX
     </p>
 
