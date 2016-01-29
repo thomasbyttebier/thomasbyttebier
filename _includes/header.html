@@ -1,12 +1,12 @@
 <header>
 
-    <h1>
+    {% if page.no-title == true %}<h1>{% else %}<p>{% endif %}
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h1>
+    {% if page.no-title == true %}</h1>{% else %}</p>{% endif %}
 
-    <h2>
+    {% if page.no-title == true %}<h2>{% else %}<p>{% endif %}
         Freelance designer
-    </h2>
+    {% if page.no-title == true %}</h2>{% else %}</p>{% endif %}
 
     <p>
         Apps, web sites, UX
