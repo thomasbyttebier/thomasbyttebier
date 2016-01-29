@@ -85,13 +85,22 @@ blockquote {
 
 
 
+/**
+ * 1) Remove default padding.
+ * 2) Stay on the baseline grid.
+ */
+
 ul, ol {
-	margin: 0;
-	padding: 0;
+    padding-left: 0; /* [1] */
+    margin-bottom: 1.3888888rem; /* [2] */
 }
 
+/**
+ * 1) Dots are ugly, let's design dashes...
+ */
+
 ul {
-	list-style: none;
+	list-style: none; /* [1] */
 }
 
 	/**
