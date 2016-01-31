@@ -20,7 +20,7 @@ html {
     font-family: Tisa, serif;
     font-weight: 400;
     font-size: 1.125em;
-    line-height: 1.38888888;
+    line-height: 1.3889;
     color: rgb(33, 33, 33);
     -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
     -moz-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
@@ -30,11 +30,9 @@ html {
     font-feature-settings: "kern" 1, "liga" 1; /* [1] */
     text-transform: none;
     padding-left: 1.72222222rem;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1.625rem;
+    padding-top: 1.72222222rem;
+    padding-right: 1.72222222rem;
+    padding-bottom: 1.72222222rem;
 }
 
 
@@ -42,24 +40,43 @@ p {
 
 
 /**
+ * The baseline grid and measure.
+ *
+ * 1) 25px leading in standard situations.
+ * 2) Measure of roughly 66 characters.
+ */
+
+p,
+h1, h2, h3, h4, h5, h6,
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 1.38889rem; /* [1] */
+    max-width: 28.38889rem; /* [2] */
+}
+
+
+
+
+
+/**
+ * Headings.
+ *
  * Headings generally should be bold. Let's also remove margins.
- * 1) In line with the baseline grid of 25px.
  */
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
 	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 1.38888888rem; /* [1] */
 }
 
 /**
  * 1) Defaults back to 21px in most circumstances.
  * 2) Default baseline grid of 25px.
  */
+
 h1 {
     font-size: 1.16666666rem; /* [1] */
-    line-height: 1.38888888rem; /* [2] */
+    line-height: 1.38889rem; /* [2] */
 }
 
 h3 {
@@ -74,6 +91,11 @@ h4, h5, h6 {
 
 
 
+/**
+ * Blockquotes.
+ *
+ */
+
 blockquote {
     border-left: 1px solid rgb(33, 33, 33);
     padding-left: .7em;
@@ -86,13 +108,13 @@ blockquote {
 
 
 /**
+ * Typographic lists.
+ *
  * 1) Remove default padding.
- * 2) Stay on the baseline grid.
  */
 
 ul, ol {
     padding-left: 0; /* [1] */
-    margin-bottom: 1.3888888rem; /* [2] */
 }
 
 /**

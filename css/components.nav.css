@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    #NAV
+\*------------------------------------*/
+
+/**
+ * The website's main navigation list.
+ */
+
+
+
+
+
+.c-nav {
+    margin: 0;
+}
+
+    .c-nav__item {  }
+
+        /**
+         * Undoing pseudo-element from base.type.css.
+         */
+
+        .c-nav__item:before {
+            content: ""; /* [1] */
+            position: static; /* [1] */
+        }

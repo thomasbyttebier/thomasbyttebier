@@ -1,21 +1,23 @@
 <header class="c-masthead">
-        {% if page.no-title == true %}<h1 class="c-masthead__title c-masthead__line">{% else %}<p class="c-masthead__title">{% endif %}
-            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="c-masthead__branding">
+        {% if page.no-title == true %}<h1 class="c-masthead__title c-masthead__line">{% else %}<p class="c-masthead__title c-masthead__line">{% endif %}
+            <a class="c-masthead__title-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
         {% if page.no-title == true %}</h1>{% else %}</p>{% endif %}
 
-        {% if page.no-title == true %}<h2 class="c-masthead__subtitle c-masthead__line">{% else %}<p class="c-masthead__subtitle">{% endif %}
+        {% if page.no-title == true %}<h2 class="c-masthead__subtitle c-masthead__line">{% else %}<p class="c-masthead__subtitle c-masthead__line">{% endif %}
             Freelance designer
         {% if page.no-title == true %}</h2>{% else %}</p>{% endif %}
 
-    <p class="c-masthead__line">
-        Apps, web sites, UX
-    </p>
+        <p class="c-masthead__line">
+            Apps, web sites, UX
+        </p>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="{{ "about.md" | prepend: site.baseurl }}">About me</a></li>
-            <li><a href="{{ "work.md" | prepend: site.baseurl }}">Past work</a></li>
-            <li><a href="{{ "blog.md" | prepend: site.baseurl }}">Writing</a></li>
+    <nav class="c-masthead__nav">
+        <ul class="c-nav">
+            <li class="c-nav__item"><a href="{{ "about.md" | prepend: site.baseurl }}">About me</a></li>
+            <li class="c-nav__item"><a href="{{ "work.md" | prepend: site.baseurl }}">Past work</a></li>
+            <li class="c-nav__item"><a href="{{ "blog.md" | prepend: site.baseurl }}">Writing</a></li>
         </ul>
     </nav>
 
