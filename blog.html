@@ -1,0 +1,16 @@
+---
+layout: default
+title: Writing
+permalink: /blog/
+---
+
+{% for item in site.posts %}
+  {% if forloop.first %}<ul class="c-bloglist">{% endif %}
+    <li class="c-bloglist__item">
+        <time class="c-bloglist__date" datetime="{{ item.date | date: "%F" }}">{{ item.date | date: "%b %d, %Y" }}</time>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+  {% if forloop.last %}</ul>{% endif %}
+{% else %}
+  <p>Currently reorganizing blog posts. Stay tuned.</p>
+{% endfor %}

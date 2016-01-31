@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    #BLOGLIST
+\*------------------------------------*/
+
+/**
+ * The list of blog posts on the blog overview page.
+ */
+
+
+
+
+
+.c-bloglist { }
+
+    .c-bloglist__item { }
+
+    .c-bloglist__date {
+        display: inline-block;
+        width: 6rem;
+    }

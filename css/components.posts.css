@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #POST
+\*------------------------------------*/
+
+/**
+ * Blog posts.
+ */
+
+
+
+
+
+.c-post { }
+
+    /**
+     * 1) Staying on the baseline grid.
+     */
+    
+    .c-post__metadata {
+        font-size: .7778rem;
+        line-height: 1.38889rem; /* [1] */
+    }

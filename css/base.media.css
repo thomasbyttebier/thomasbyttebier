@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    #MEDIA
+\*------------------------------------*/
+
+/**
+ * Base selectors for images, video, audio, pieces of code...
+ */
+
+
+
+
+
+/**
+ * Code blocks and images can grow bigger than the main blog column width.
+ *
+ * 1) IE8 and earlier fall-back.
+ * 2) Breaking out of the p container. Using the full viewport width minus the
+ *    left and right padding as defined on the html element in base.type.css.
+ */
+
+img,
+pre {
+    max-width: 100%; /* [1] */
+    max-width: calc(100vw - 3.4444444rem); /* [2] */
+}
+
+/**
+ * 1) We don't want to overwhelm a user with an image. It can grow as wide as
+ *    the viewport, but should never get higher than a percentage of the
+ *    viewport height. The image is always fully visible and parts of the text
+ *    remain in sight, which is good.
+ */
+
+img {
+    max-height: 78vh; /* [1] */
+}
+
+/**
+ * pre code blocks
+ */
+
+pre {
+    font-size: .77777rem;
+}

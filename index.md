@@ -3,7 +3,9 @@ layout: default
 no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
 ---
 
-I'm Thomas Byttebier. I studied design at the turn of the millennium and fell in love with the interactive nature of the web. I’ve grown to believe that design should be as simple and clear as possible. Users shouldn’t have to think to find their way. Fitbit fitbit. ffitbit Ffitbit
+I'm Thomas Byttebier. I studied design at the turn of the millennium and fell in love with the interactive nature of the web. I’ve grown to believe that design should be as simple and clear as possible. Users shouldn’t have to think to find their way.
+
+Fitbit fitbit. ffitbit Ffitbit. Steven. steven. ff. fi. fl. ffl.
 
 1. Testitem
 2. Nog een items
