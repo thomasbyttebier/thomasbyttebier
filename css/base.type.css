@@ -20,7 +20,7 @@ html {
     font-family: Tisa, serif;
     font-weight: 400;
     font-size: 1.125em;
-    line-height: 1.3889;
+    line-height: 1.38889;
     color: rgb(33, 33, 33);
     -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
     -moz-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
@@ -101,6 +101,65 @@ blockquote {
     padding-left: .7em;
     margin-left: -.7em;
     font-style: italic;
+}
+
+
+
+
+
+/**
+ * pre code blocks
+ */
+
+pre, code {
+    font-family: "Andale Mono", "Consolas", "Courier New", Courier, monospace;
+    font-size: .88888rem;
+    line-height: 1.38889rem;
+}
+
+/**
+ * Code that is not inside a pre element: inline pieces of code.
+ *
+ * 1) Prevent from breaking to the next line.
+ * 2) Return back to normal line-height. There is this weird thing with
+ *    Andale Mono's line-height and I can't figure out what's wrong.
+ */
+
+:not(pre) > code {
+    color: rgb(140, 140, 140);
+    padding-left: .1em;
+    padding-right: .1em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    white-space: nowrap; /* [1] */
+    line-height: normal; /* [2] */
+}
+
+
+/**
+ * 1) Keep up with the baseline grid: default baseline grid distance + (default
+ *    baseline grid distance - padding-bottom).
+ * 2) Same as above: keep in mind most of the time collapsing margins will
+ *    occur, so this is what we're after.
+ * 3) Values tied to each other.
+ * 4) IE8 and earlier fall-back for vw.
+ * 5) Breaking out of the p container. Using the full viewport width minus the
+ *    left and right padding as defined on the html element, plus the left
+ *    padding.
+ */
+
+pre {
+    margin-bottom: 1.778rem; /* [1] */
+    margin-top: 1.778rem; /* [2] */
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .9rem; /* [3] */
+    margin-left: -.9rem; /* [3] */
+    padding-right: .9rem;
+    border-radius: 2px;
+    width: calc(100vw - 3.4444444rem + .9rem); /* [3] */
 }
 
 

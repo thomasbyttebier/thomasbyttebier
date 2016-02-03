@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 /**
- * Base selectors for images, video, audio, pieces of code...
+ * Base selectors for images, video, audio...
  */
 
 
@@ -11,15 +11,14 @@
 
 
 /**
- * Code blocks and images can grow bigger than the main blog column width.
+ * Images can grow bigger than the main blog column width.
  *
  * 1) IE8 and earlier fall-back.
  * 2) Breaking out of the p container. Using the full viewport width minus the
  *    left and right padding as defined on the html element in base.type.css.
  */
 
-img,
-pre {
+img {
     max-width: 100%; /* [1] */
     max-width: calc(100vw - 3.4444444rem); /* [2] */
 }
@@ -33,12 +32,4 @@ pre {
 
 img {
     max-height: 78vh; /* [1] */
-}
-
-/**
- * pre code blocks
- */
-
-pre {
-    font-size: .77777rem;
 }

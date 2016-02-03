@@ -14,3 +14,4 @@ timezone: Europe/Brussels
 
 # Build settings
 markdown: kramdown
+highlighter: false

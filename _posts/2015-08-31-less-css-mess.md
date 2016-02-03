@@ -3,7 +3,6 @@ layout: post
 title:  Less CSS mess
 date:   2015-08-31
 permalink: /blog/:title
-code-highlight: true
 ---
 
 For years I’ve struggled with CSS. Remember (link: https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/ text: Damien Newman's squiggle) as a visual representation of the design process? Flip it and you'll have a perfect depiction of any CSS project:
@@ -79,14 +78,6 @@ BEM's naming convention follows this pattern:
 Using BEM, your HTML is now communicating more than ever to whoever is reading it. Just by looking at a piece of HTML, you can see how everything is related. An element may be the start of a component, its classes might suggest it's a part of a block, or it might be a variant on a component.
 
 As an example, consider the following piece of HTML:
-
-{% prism html %}
-<div class="o-grid">
-  <div class="o-grid__cell u-size-1-of-2">
-    <div class="c-dropdown c-dropdown--large js-toggle-colors">(...)</div>
-  </div>
-</div>
-{% endprism %}
 
     <div class="o-grid">
       <div class="o-grid__cell u-size-1-of-2">
