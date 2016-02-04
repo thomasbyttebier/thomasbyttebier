@@ -3,6 +3,7 @@ layout: post
 title:  Less CSS mess
 date:   2015-08-31
 permalink: /blog/:title
+excerpt: There's 5 things that helped me shape up the way I code my designs enormously: coding guidelines, itcss, namespaced CSS, BEM and documentation in a front-end style guide.
 ---
 
 For years I’ve struggled with CSS. Remember (link: https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/ text: Damien Newman's squiggle) as a visual representation of the design process? Flip it and you'll have a perfect depiction of any CSS project:

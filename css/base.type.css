@@ -108,7 +108,7 @@ blockquote {
 
 
 /**
- * pre code blocks
+ * Code pieces.
  */
 
 pre, code {
@@ -159,7 +159,7 @@ pre {
     margin-left: -.9rem; /* [3] */
     padding-right: .9rem;
     border-radius: 2px;
-    width: calc(100vw - 3.4444444rem + .9rem); /* [3] */
+    max-width: calc(100vw - 3.4444444rem + .9rem); /* [3] */
 }
 
 

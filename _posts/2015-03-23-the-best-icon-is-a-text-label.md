@@ -3,6 +3,7 @@ layout: post
 title:  The best icon is a text label
 date:   2015-03-23
 permalink: /blog/:title
+excerpt: Icons are an essential part of many user interfaces. The thing is: more often than not, they break clarity. Just replace them by a text label. Or an icon plus label.
 ---
 
 [Previously]({% post_url 2015-03-16-a-clear-interface-is-a-better-interface %}) I wrote about clarity being the most important characteristic of a great interface. Let’s talk about icons now. They’re an essential part of many user interfaces. The thing is: more often than not, they break clarity.
