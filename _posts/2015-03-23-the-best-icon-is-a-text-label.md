@@ -2,15 +2,16 @@
 layout: post
 title:  The best icon is a text label
 date:   2015-03-23
+imgpath: /assets/images/2015-12-30/
 permalink: /blog/:title
-excerpt: Icons are an essential part of many user interfaces. The thing is: more often than not, they break clarity. Just replace them by a text label. Or an icon plus label.
+excerpt: "Icons are an essential part of many user interfaces. The thing is: more often than not, they break clarity. Just replace them by a text label. Or an icon plus label."
 ---
 
 [Previously]({% post_url 2015-03-16-a-clear-interface-is-a-better-interface %}) I wrote about clarity being the most important characteristic of a great interface. Let’s talk about icons now. They’re an essential part of many user interfaces. The thing is: more often than not, they break clarity.
 
 Pictograms have been in use since the early days of mankind. They are often seen as the first expressions of a written language. Some non-literate cultures still use them today as their main medium of written communication.
 
-![ojibwa pictograms in agawa rock, photo by Robertson]({{ site.pageroot }}/assets/images/2015-03-23/ojibwa-agawa-rock-robertson.jpg)
+![ojibwa pictograms in agawa rock, photo by Robertson]({{ site.baseurl }}{{ page.imgpath }}ojibwa-agawa-rock-robertson.jpg)
 
 In many public spaces, they’re used for wayfinding. Especially in a multi-cultural environment like an airport, traditional written language would not suffice.
 

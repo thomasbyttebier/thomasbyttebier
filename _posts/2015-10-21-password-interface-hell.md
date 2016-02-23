@@ -3,11 +3,11 @@ layout: post
 permalink: /blog/:title
 title: Password interface hell
 date: 2015-10-21
-excerpt: As designers we should try and eliminate as much UI as possible. Because it always boils down to this: people don't want to use interfaces, they want to get stuff done.
+excerpt: "As designers we should try and eliminate as much UI as possible. Because it always boils down to this: people don't want to use interfaces, they want to get stuff done."
 ---
-I'm using a password manager. I dislike password managers. They solve a problem that shouldn't exist in the first place. They solve a problem software creates. I shouldn't have to care about passwords. 
+I'm using a password manager. I dislike password managers. They solve a problem that shouldn't exist in the first place. They solve a problem software creates. I shouldn't have to care about passwords.
 
-Nonetheless, we all have an insane amount of passwords to remember and fill out. In the end most people just use the same password for every service, or write them down in a file on their computer. Unsecure but totally understandable, they're just trying to clean up the mess we leave behind.
+Nonetheless, we all have an insane amount of passwords to remember and fill out. In the end most people just use the same password for every service, or write them down in a file on their computer. Insecure but totally understandable, they're just trying to clean up the mess we leave behind.
 
 I was excited when Apple first introduced Touch ID. I thought fingerprint recognition was going to appear everywhere and finally kill login screens and passwords. It hasn't happened, yet.
 

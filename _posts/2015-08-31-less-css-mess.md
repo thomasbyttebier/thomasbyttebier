@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  Less CSS mess
-date:   2015-08-31
+title: Less CSS mess
+date: 2015-08-31
+imgpath: /assets/images/2015-08-31/
 permalink: /blog/:title
-excerpt: There's 5 things that helped me shape up the way I code my designs enormously: coding guidelines, itcss, namespaced CSS, BEM and documentation in a front-end style guide.
+excerpt: "There's 5 things that helped me shape up the way I code my designs enormously: coding guidelines, itcss, namespaced CSS, BEM and documentation in a front-end style guide."
 ---
+For years I’ve struggled with CSS. Remember [Damien Newman's squiggle](https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/) as a visual representation of the design process? Flip it and you'll have a perfect depiction of any CSS project:
 
-For years I’ve struggled with CSS. Remember (link: https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/ text: Damien Newman's squiggle) as a visual representation of the design process? Flip it and you'll have a perfect depiction of any CSS project:
+![A perfect depictation of any CSS project]({{site.baseurl}}{{page.imgpath}}css-project.png)
 
-(image: css-project.png)
-
-At least in my case, every new project starts out extremely well-organized, then pretty soon turns into (file: giphy-fail.gif text: a complete mess). The problem is mostly me, but I blame CSS for it as well.
+At least in my case, every new project starts out extremely well-organized, then pretty soon turns into [a complete mess]({{site.baseurl}}{{page.imgpath}}giphy-fail.gif). The problem is mostly me, but I blame CSS for it as well.
 
 CSS is an unstructured language. Everything can be accomplished in twenty-five different ways. (And if you’re part of a team: everything will be accomplished in twenty-five different ways.) The biggest problem is arguably CSS’s biggest selling point: there’s a quick fix for every problem. Just put a new rule at the end, upping the selector’s specificity a bit.
 
@@ -34,7 +34,7 @@ The second step is figuring out a more general architectural principle for your 
 
 Itcss’s main purpose is to never have trouble with inheritance or the cascade again, as it's mostly these inherent CSS principles that easily lead to smelly code. The idea is simple yet effective: write CSS in specificity order. Start with generic, far-reaching styles and end with very specific localized styles. Itcss groups styles with equal specificity into so-called layers. Let me go over each of the itcss layers concisely, just to give you an idea.
 
-The first itcss layer is called the *generic layer*. It's things like (link: https://necolas.github.io/normalize.css/ text: normalize) or (link: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ text: box-sizing rules). They affect as good as every element on a page, but have very low specificity. It’s best to thematically organize them in separate files, having the itcss layer clearly readable in the filenames, say *generic.normalize.css*, *generic.box-sizing.css* and so on. It's the first files that get included on your pages.
+The first itcss layer is called the *generic layer*. It's things like [normalize](https://necolas.github.io/normalize.css/) or [box-sizing rules](http://www.paulirish.com/2012/box-sizing-border-box-ftw/). They affect as good as every element on a page, but have very low specificity. It’s best to thematically organize them in separate files, having the itcss layer clearly readable in the filenames, say *generic.normalize.css*, *generic.box-sizing.css* and so on. It's the first files that get included on your pages.
 
 Next, add files for your base styles: unclassed element selectors. This is itcss’s *base layer*. You’ll end up with files such as *base.forms.css*, *base.links.css*, *base.lists.css* and *base.typography.css*. After this itcss layer, you’ll never run into an element selector again: it’s all class selectors from now on, naturally overwriting earlier generic or base CSS rules if necessary.
 
@@ -44,7 +44,7 @@ In the project I’m currently working on, the objects layer is mainly the grid 
 
 We’re definitely not done yet with the itcss layers, but you may start to see a pattern: the generic layer targets almost all parts of the dom. The base layer is pretty far-reaching as well as it targets every element of a certain kind. Objects on the other hand don’t affect anything unless you add these object classes to your elements. Each layer is therefor more specific, and targets less dom parts. This makes sure specificity issues are a thing of the past. Visually this could be represented as an inverted triangle, hence the name itcss: inverted triangle css.
 
-(image: itcss-triangle.png alt: inverted triangle css)
+![Inverted Triangle CSS]({{site.baseurl}}{{page.imgpath}}itcss-triangle.png)
 
 Back to itcss layers. As seen in the image above, next up are *components*. A component is a  reusable chunk of UI that is clearly designed, as opposed to an object. Its name gets more explicit and clearly refers to a block of UI: pagination, buttons, modals, icons… When well-written, you can take a component and paste it everywhere in your site. It’ll work and look good.
 
@@ -54,7 +54,9 @@ As for me, itcss has proven to be great. Each CSS rule has a clear place in the 
 
 If itcss sounds interesting to you, make sure to check out [this talk](https://www.youtube.com/watch?v=1OKZOV-iLj4) Harry Roberts gave on itcss. He’s way better suited to explain it all to you. ([His slides are here.](https://speakerdeck.com/dafed/managing-css-projects-with-itcss))
 
-(youtube: https://www.youtube.com/watch?v=1OKZOV-iLj4)
+<div class="o-media-container">
+    <iframe class="o-media-container__media" src="https://www.youtube.com/embed/1OKZOV-iLj4?controls=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Namespaced CSS
 
@@ -98,7 +100,7 @@ Isn't this great? Code is suddenly readable and conveys a lot of meaning to anyo
 
 ## Documentation as a front-end style guide
 
-The final step is documenting the chunks of UI in a style guide.  As a freelancer, in a lot of projects it's my job to make myself superfluous as quickly as possible. A style guide fits this scenario perfectly. It's an inventory of UI elements, briefly documented for developers. It's a place where you tell them when and how to use each of the various components you've designed. (link: http://primercss.io text: Primer) is a good example, or even the (link: http://getbootstrap.com/components/ text: Bootstrap documentation).
+The final step is documenting the chunks of UI in a style guide.  As a freelancer, in a lot of projects it's my job to make myself superfluous as quickly as possible. A style guide fits this scenario perfectly. It's an inventory of UI elements, briefly documented for developers. It's a place where you tell them when and how to use each of the various components you've designed. [Primer](http://primercss.io) is a good example, or even the [Bootstrap documentation](http://getbootstrap.com/components/).
 
 Style guides are living documents, they're never done. As soon as a bit of UI changes, the style guide has to reflect that change. If it doesn't, it's become useless. As a result, documenting UI in the style guide has grown to be a part of my daily workflow. As soon as I finished refactoring CSS or writing new CSS rules, I turn to the style guide to document what I have done.
 

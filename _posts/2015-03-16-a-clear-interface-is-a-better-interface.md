@@ -2,17 +2,18 @@
 layout: post
 title:  A clear interface is a better interface
 date:   2015-03-16
+imgpath: /assets/images/2015-03-16/
 permalink: /blog/:title
 excerpt: Clarity is probably the first and most important characteristic of good user interface design. A clear interface is simply a better interface. I don’t think anyone will argue with that.
 ---
 
-(This is part 1 of a series of blog posts on the design characteristics of great user interfaces. It’s a more elaborate take on (link: http://thomasbyttebier.be/blog/characteristics-of-a-well-designed-user-interface text: what I discussed earlier).)
+(This is part 1 of a series of blog posts on the design characteristics of great user interfaces. It’s a more elaborate take on [what I discussed earlier](http://thomasbyttebier.be/blog/characteristics-of-a-well-designed-user-interface).)
 
 Clarity is probably the first and most important characteristic of good user interface design. A clear interface is simply a better interface. I don’t think anyone will argue with that.
 
 In the 1930s and 1940s, American industrial designer Henry Dreyfuss dramatically improved the look, feel and usability of dozens of consumer products. You may recognize his telephone design for Western Electric:
 
-(image: dreyfuss-westernelectric302.jpg alt: henry dreyfuss designed western electric telephone)
+![henry dreyfuss designed western electric telephone]({{site.baseurl}}{{page.imgpath}}dreyfuss-westernelectric302.jpg)
 
 Dreyfuss was not a stylist, he applied common sense and a scientific approach to design problems. Ergonomics and ease of use were much more important than style. In 1955 he said:
 
@@ -22,9 +23,9 @@ In the context of user interface design, I think it’s safe to say the interfac
 
 If your app isn’t clear enough, users will struggle. There’s going to be that point of friction.
 
-In more recent times, usability expert (link: http://www.sensible.com text: Steve Krug) basically said the same. His book (link: http://www.sensible.com/dmmt.html text: Don’t Make Me Think) made an enormous impact on how I design web sites and interfaces.
+In more recent times, usability expert [Steve Krug](http://www.sensible.com) basically said the same. His book [Don’t Make Me Think](http://www.sensible.com/dmmt.html) made an enormous impact on how I design web sites and interfaces.
 
-(image: dontmakemethink.jpg alt: don’t make me think book by steve drug)
+![Don't Make Me Think by Steve Krug]({{site.baseurl}}{{page.imgpath}}dontmakemethink.jpg)
 
 While the examples in the book may be a bit outdated, the message of it still stands strong: don’t make your users think.
 
@@ -36,39 +37,39 @@ Here’s what Steve Krug says on the matter:
 
 > There are no simple ‘right’ answers for most web design questions (at least not for the important ones). What works is good, integrated design that fills a need—carefully thought out, well executed, and tested.
 
-That last word is important here. Clarity in UI design can be tested. You can hire folks to do the testing for you, or you can do it yourself. Steve Krug showed me how simple a usability test can be in his book (link: http://www.sensible.com/rsme.html text: Rocket Surgery Made Easy). If this interests you, make sure to (link: https://www.youtube.com/watch?v=QckIzHC99Xc&t=723 text: watch his demo video) of a website usability test.
+That last word is important here. Clarity in UI design can be tested. You can hire folks to do the testing for you, or you can do it yourself. Steve Krug showed me how simple a usability test can be in his book [Rocket Surgery Made Easy](http://www.sensible.com/rsme.html). If this interests you, make sure to [watch his demo video](https://www.youtube.com/watch?v=QckIzHC99Xc&t=723) of a website usability test.
 
 Anyway, we’re drifting off a bit, let’s have a look at a simple but crystal-clear interface, Messages on iOS:
 
-(image: ios-messages.png alt: iOS messages app)
+![iOS messages app]({{site.baseurl}}{{page.imgpath}}ios-messages.png)
 
 There’s really not much to think about when using this interface. It’s instantly clear there’s one new message, who it’s from and when it was received. I don’t have to think about how to open a message or how to compose a new message. No friction, this is excellent design.
 
-(link: https://www.myfonts.com/WhatTheFont/ text: WhatTheFont) is an app by (link: https://www.myfonts.com text: MyFonts). It lets users upload a photo, then identifies the typeface visible on the picture. While there’s arguably a lot to improve graphically, the startup screen is very clear:
+[WhatTheFont](https://www.myfonts.com/WhatTheFont/) is an app by [MyFonts](https://www.myfonts.com). It lets users upload a photo, then identifies the typeface visible on the picture. While there’s arguably a lot to improve graphically, the startup screen is very clear:
 
-(image: ios-whatthefont.png alt: iOS WhatTheFont app)
+![iOS WhatTheFont app]({{site.baseurl}}{{page.imgpath}}ios-whatthefont.png)
 
 Everybody happy.
 
-This app by (link: https://www.delijn.be text: De Lijn), a Belgian public transportation service, is clear and attractive. It has good filled-out defaults (current location and time) and an intuitive design. That makes it a nice to use interface at this point:
+This app by [De Lijn](https://www.delijn.be), a Belgian public transportation service, is clear and attractive. It has good filled-out defaults (current location and time) and an intuitive design. That makes it a nice to use interface at this point:
 
-(image: ios-delijn.png alt: iOS De Lijn app)
+![iOS De Lijn app]({{site.baseurl}}{{page.imgpath}}ios-delijn.png)
 
 One way to make an interface clearer is to add descriptive help messages. While that may look like the obvious thing to do, it can soon get distracting and simply get in the way, making your interface less effective. That’s why balance is so important in the design of user interfaces.
 
-(link: https://www.dropbox.com text: Dropbox) and (link: https://culturedcode.com/things/ text: Things) are two apps that have a smart way of dealing with this: they show explanatory text, but only to users that haven’t used a particular feature of their app. Instead of showing help messages all over, they use the opportunity of the empty screen to explain their users the benefits of that unused part of the app.
+[Dropbox](https://www.dropbox.com) and [Things](https://culturedcode.com/things/) are two apps that have a smart way of dealing with this: they show explanatory text, but only to users that haven’t used a particular feature of their app. Instead of showing help messages all over, they use the opportunity of the empty screen to explain their users the benefits of that unused part of the app.
 
-(image: ios-dropbox-things.png alt: dropbox and things iOS apps show descriptive help messages)
+![Dropbox and Things iOS apps show descriptive help messages]({{site.baseurl}}{{page.imgpath}}ios-dropbox-things.png)
 
-Probably interesting to refer to here is the influential blogpost (link: https://basecamp.com text: Basecamp) wrote on their (link: https://signalvnoise.com text: Signal vs Noise blog) over a decade (!) ago. It’s all about this so-called (link: https://signalvnoise.com/archives/000375.php text: blank slate of web apps).
+Probably interesting to refer to here is the influential blogpost [Basecamp](https://basecamp.com) wrote on their [Signal vs Noise blog](https://signalvnoise.com) over a decade (!) ago. It’s all about this so-called [blank slate of web apps](https://signalvnoise.com/archives/000375.php).
 
-(link: https://webflow.com text: Webflow) does things more lightly in their blank slates, adding a bit more clarity and a lot more personality to their user interface:
+[Webflow](https://webflow.com) does things more lightly in their blank slates, adding a bit more clarity and a lot more personality to their user interface:
 
-(image: webflow.png alt: webflow blank slate)
+![Webflow blank slate]({{site.baseurl}}{{page.imgpath}}webflow.png)
 
-Let’s have a look at one last example, the (link: http://wordpress.com text: Wordpress) CMS admin section:
+Let’s have a look at one last example, the [Wordpress](http://wordpress.com) CMS admin section:
 
-(image: wordpress.png alt: wordpress cms admin area)
+![Wordpress CMS admin area]({{site.baseurl}}{{page.imgpath}}wordpress.png)
 
 While the icons in itself aren’t clear enough and possibly introducing friction, Wordpress uses descriptive help messages when hovering over the unclear icons. I guess it’s an acceptable way to introduce more clarity to this area of the app.
 
