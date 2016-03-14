@@ -157,9 +157,9 @@ pre {
     padding-bottom: 1rem;
     padding-left: .9rem; /* [3] */
     margin-left: -.9rem; /* [3] */
+    margin-right: -.9rem;
     padding-right: .9rem;
     border-radius: 2px;
-    max-width: calc(100vw - 3.4444444rem + .9rem); /* [3] */
 }
 
 
