@@ -44,7 +44,7 @@ In the project I’m currently working on, the objects layer is mainly the grid 
 
 We’re definitely not done yet with the itcss layers, but you may start to see a pattern: the generic layer targets almost all parts of the dom. The base layer is pretty far-reaching as well as it targets every element of a certain kind. Objects on the other hand don’t affect anything unless you add these object classes to your elements. Each layer is therefor more specific, and targets less dom parts. This makes sure specificity issues are a thing of the past. Visually this could be represented as an inverted triangle, hence the name itcss: inverted triangle css.
 
-![Inverted Triangle CSS]({{site.baseurl}}{{page.imgpath}}itcss-triangle.png)
+<img alt="Inverted Triangle CSS" src="{{site.baseurl}}{{page.imgpath}}itcss-triangle.png" srcset="{{site.baseurl}}{{page.imgpath}}itcss-triangle@2x.png 2x">
 
 Back to itcss layers. As seen in the image above, next up are *components*. A component is a  reusable chunk of UI that is clearly designed, as opposed to an object. Its name gets more explicit and clearly refers to a block of UI: pagination, buttons, modals, icons… When well-written, you can take a component and paste it everywhere in your site. It’ll work and look good.
 

@@ -34,7 +34,7 @@ That makes a lot of sense, knowing that clarity is a good UI’s foremost charac
 
 Have a look at these two typefaces:
 
-![roboto vs clarendon as user interface fonts]({{ site.baseurl }}{{ page.imgpath }}roboto-clarendon.png)
+<img alt="Roboto vs Clarendon as UI fonts" src="{{site.baseurl}}{{page.imgpath}}roboto-clarendon.png" srcset="{{site.baseurl}}{{page.imgpath}}roboto-clarendon@2x.png 2x">
 
 Clarendon is beautiful. But in all its shiny glory, it screams for attention and may therefor distract our users from tasks and goals. In user interfaces, we want the typeface to go unnoticed and the user to get things done.  Roboto may look a bit impersonal, even boring at first sight, it is by far a better choice.
 
@@ -50,7 +50,7 @@ As text gets really tiny, you’ll probably want to look for a font with [a larg
 
 That being said, now half close your eyes. Which of these two small text buttons is more readable?
 
-![lucida grande vs helvetica as a user interface typeface]({{ site.baseurl }}{{ page.imgpath }}lucida-helvetica-2.png)
+<img alt="Lucida Grande vs Helvetica as UI typefaces" src="{{site.baseurl}}{{page.imgpath}}lucida-helvetica-2.png" srcset="{{site.baseurl}}{{page.imgpath}}lucida-helvetica-2@2x.png 2x">
 
 If you didn’t before, you now understand all the fuzz about Helvetica as an interface font. When Apple released Yosemite, the design community commented sharply on the switch from Lucida Grande to Helvetica. It just isn’t very legible, especially at small font sizes on low-res screens. It breaks [clarity](http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface).
 
@@ -58,49 +58,49 @@ Have a look at this screenshot. Ugh! What’s going on there?
 
 ![OS X Yosemite switched to Helvetica as an interface font]({{ site.baseurl }}{{ page.imgpath }}os-x-settings.png)
 
-German typographer [Erik Spiekermann](http://www.spiekermann.com) (of [Meta](https://www.fontshop.com/families/ff-meta)) and [Fira](https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/) among many other beauties) boldly [said this](http://spiekermann.com/en/helvetica-sucks/) on his blog:
+German typographer [Erik Spiekermann](http://www.spiekermann.com) (of [Meta](https://www.fontshop.com/families/ff-meta) and [Fira](https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/) among many others) boldly [said this](http://spiekermann.com/en/helvetica-sucks/) on his blog:
 
 > Helvetica sucks. It really wasn’t designed for small sizes on screens. Words like ‘milliliter’ can be very difficult to decipher.
 
 Let’s see. Half close your eyes again and experience it for yourself.
 
-![Helvetica is hard to decipher]({{ site.baseurl }}{{ page.imgpath }}milliliter.png)
+<img alt="Helvetica is hard to decipher" src="{{site.baseurl}}{{page.imgpath}}milliliter.png" srcset="{{site.baseurl}}{{page.imgpath}}milliliter@2x.png 2x">
 
 No need to argue, Helvetica is not the most legible. However it’s remarkable how well Ubuntu performs in the above screenshot. Especially an interface typeface has to provide enough distinction between its various glyphs. Think about passwords, user names, data tables, drop down lists… Your interface must display them in an unambiguous way. You don’t want your users to pause for even a fraction of a second to decipher glyphs and shapes.
 
 Gill Sans is perfect to illustrate that as well. It’s a great typeface, but it’s simply not suited for UI design. The first (1), third (capital i) and last (lower case L) character look exactly the same!
 
-![Gill Sans falls short as a UI typeface]({{ site.baseurl }}{{ page.imgpath }}gill-sans.png)
+<img alt="Gill Sans falls short as a UI typeface" src="{{site.baseurl}}{{page.imgpath}}gill-sans.png" srcset="{{site.baseurl}}{{page.imgpath}}gill-sans@2x.png 2x">
 
 Helvetica suffers the same unclarity. Erik Spiekermann once made a [visual comparison between DB Sans and Helvetica](https://twitter.com/espiekermann/status/579240818206236672) that exemplifies this. Let me do the same with Helvetica and Fira Sans. Half-close your eyes. You’ll likely see how these glyph pairs set in Neue Helvetica get mixed up very easily. Confusing vs legible:
 
-![Helvetica vs Fira or confusing vs legible]({{ site.baseurl }}{{ page.imgpath }}helvetica-fira.png)
+<img alt="Helvetica vs Fira as UI typefaces" src="{{site.baseurl}}{{page.imgpath}}helvetica-fira.png" srcset="{{site.baseurl}}{{page.imgpath}}helvetica-fira@2x.png 2x">
 
 Now that we know what to look out for, the remaining question is of course: what then is a clear UI font? Let me show you a handful of excellent, albeit obvious choices. It’s sans-serif fonts that were designed specifically for use in interfaces. Well-hinted for small font-sizes and low screen resolutions.
 
 First there’s [Lucida Grande](http://lucidafonts.com/fonts/family/lucida-grande) of course. Designed by Charles Bigelow and Kris Holmes, it has been used throughout the Mac OS X user interface from 1999 to 2014. It was [retina optimized in 2013](http://blog.justanotherfoundry.com/2013/10/lucida-grande-retina-optimized-in-os-x-mavericks/). It’s almost identical to Lucida Sans, but some glyphs were adapted to look clearer in small font sizes on screens. You know why.
 
-![Lucida Grande]({{ site.baseurl }}{{ page.imgpath }}lucida-grande.png)
+<img alt="Lucida Grande" src="{{site.baseurl}}{{page.imgpath}}lucida-grande.png" srcset="{{site.baseurl}}{{page.imgpath}}lucida-grande@2x.png 2x">
 
 Although the difference between a capital i and a lower case L may get harder to distinguish at small font sizes, it still works.
 
-![Similar glyphs Lucida Grande at small font sizes]({{ site.baseurl }}{{ page.imgpath }}illustrous.png)
+<img alt="Similar glyphs Lucida Grande at small font sizes" src="{{site.baseurl}}{{page.imgpath}}illustrous.png" srcset="{{site.baseurl}}{{page.imgpath}}illustrous@2x.png 2x">
 
 [Verdana](http://www.microsoft.com/typography/fonts/family.aspx?FID=1), like Georgia, was designed by Matthew Carter for Microsoft, and released in 1996. It was hand-hinted until it became very legible at small sizes on computer screens. Special care was given to emphasize distinctions between similarly-shaped characters. Again, you know why.
 
-![Verdana]({{ site.baseurl }}{{ page.imgpath }}verdana.png)
+<img alt="Verdana" src="{{site.baseurl}}{{page.imgpath}}verdana.png" srcset="{{site.baseurl}}{{page.imgpath}}verdana@2x.png 2x">
 
 [Fira Sans](https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/) is the Firefox OS typeface. It was designed by [Erik Spiekermann](http://spiekermann.com) and [Ralph Du Carrois](http://www.carrois.com) for Mozilla and released in 2013 in 4 weights. It received a huge update in 2014. Fira is closely related to Spiekermann’s Meta which is used as the brand typeface of the Mozilla Foundation. It looks great on the web.
 
-![fira sans]({{ site.baseurl }}{{ page.imgpath }}fira-sans.png)
+<img alt="Fira Sans" src="{{site.baseurl}}{{page.imgpath}}fira-sans.png" srcset="{{site.baseurl}}{{page.imgpath}}fira-sans@2x.png 2x">
 
 [Roboto](http://www.google.com/design/spec/style/typography.html) was designed by [Christian Robertson](http://betatype.com) for Google. It has replaced Droid as the Android system font in 2011. Roboto was [subject for debate](http://typographica.org/on-typography/roboto-typeface-is-a-four-headed-frankenstein/) when it was initially released, but has since been refined extensively correcting many earlier ‘mistakes’. Roboto has been “created specifically for the requirements of UI and high-resolution screens”.
 
-![Roboto]({{ site.baseurl }}{{ page.imgpath }}roboto.png)
+<img alt="Roboto" src="{{site.baseurl}}{{page.imgpath}}roboto.png" srcset="{{site.baseurl}}{{page.imgpath}}roboto@2x.png 2x">
 
 [Ubuntu](http://font.ubuntu.com) was designed by [Dalton Maag](https://daltonmaag.com) and released in 2010 as the default typeface of Ubuntu OS. Ubuntu was developed primarily for use on screen displays. It probably has the most distinctive look of all faces mentioned here. That can or cannot be a good thing in the case of your app.
 
-![Ubuntu]({{ site.baseurl }}{{ page.imgpath }}ubuntu.png)
+<img alt="Ubuntu" src="{{site.baseurl}}{{page.imgpath}}ubuntu.png" srcset="{{site.baseurl}}{{page.imgpath}}ubuntu@2x.png 2x">
 
 Other notable mentions include [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331), introduced in Windows Vista and later refined. San Francisco, the system typeface for the upcoming Apple Watch and definitely one to watch out for. [Droid Sans](http://www.google.com/fonts/specimen/Droid+Sans) and [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), [Aller Sans](https://www.fontshop.com/families/aller), [Source Sans Pro](https://typekit.com/fonts/source-sans-pro), [Azuro](https://www.fontshop.com/families/azuro), [PT Sans](http://www.paratype.com/public/)…
 
