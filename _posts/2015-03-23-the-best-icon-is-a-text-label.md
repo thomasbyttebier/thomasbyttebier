@@ -23,13 +23,11 @@ Icons soon became popular in user interface design too. Have a look at this shot
 
 Of course I can see why icons grew popular in user interfaces. Firstly, they make the UI more graphically pleasing. And when done right, they can certainly give your app visual personality. That’s two good things.
 
-Moreover, an icon can often replace a long descriptive group of words. As screens get smaller, this is much welcomed. But herein lies the design trap, because most icons are unclear. (link: http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface text: They make people think.) What good has a beautiful interface if it’s unclear? Hence it’s simple: only use an icon if its message is a 100% clear to everyone. Never give in.
+Moreover, an icon can often replace a long descriptive group of words. As screens get smaller, this is much welcomed. But herein lies the design trap, because most icons are unclear. [They make people think.](http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface) What good has a beautiful interface if it’s unclear? Hence it’s simple: only use an icon if its message is a 100% clear to everyone. Never give in.
 
-(Unclear icons remind me of this funny graphic someone posted on Twitter recently:
+(Unclear icons remind me of this funny graphic [Ron](https://twitter.com/TechnicallyRon/status/570965607971209216) posted on Twitter recently. I guess someone got frustrated by all these unreadable washing icons…)
 
 ![Washing icon hell]({{ site.baseurl }}{{ page.imgpath }}washing-icons.png)
-
-I guess [Ron](https://twitter.com/TechnicallyRon/status/570965607971209216) got frustrated by all these unreadable washing icons…)
 
 Discussing the use of icons with clients, the remark I hear often goes like this: “People will use our software daily, they’ll soon learn the meaning of our icons.” Makes sense, but I’m not sure that’s entirely correct. I use Apple mail several times a day, yet still feel uncertain which icon to click when composing a new message:
 
