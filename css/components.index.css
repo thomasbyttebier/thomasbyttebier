@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    #INDEX
+\*------------------------------------*/
+
+/**
+ *
+ **/
+
+
+
+
+
+.c-index {
+    display: flex;
+    flex-direction: column;
+}
+
+    @media only screen and (min-width: 30em) {
+        .c-index {
+            display: block;
+        }
+    }
+
+    .c-index__img {
+        order: 2;
+    }
+
+        @media only screen and (min-width: 30em) {
+            .c-index__img {
+                float: left;
+            }
+        }
+
+    .c-index__title {
+        order: 1;
+    }
+
+        @media only screen and (min-width: 30em) {
+            .c-index__title {
+                margin-left: 271px;
+            }
+        }
+
+
+
+    .c-index__intro {
+        order: 3;
+    }
+
+        @media only screen and (min-width: 30em) {
+            .c-index__intro {
+                margin-left: 271px;
+            }
+        }

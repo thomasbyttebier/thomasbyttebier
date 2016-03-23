@@ -33,11 +33,6 @@
         font-weight: 700; /* [2] */
     }
 
-    .c-masthead__title-link:link,
-    .c-masthead__title-link:hover {
-        border-bottom-width: 0;
-    }
-
     /**
      * 1) If it's an h2 element, unbolden it.
      */
@@ -48,14 +43,20 @@
 
     /**
      * 1) In line with the baseline grid.
+     * 2) Horizontal grid.
      */
 
     .c-masthead__branding,
     .c-masthead__nav {
         display: inline-block;
         margin-bottom: 1.38889rem; /* [1] */
+        width: 13.38889rem; /* [2] */
     }
 
+    /**
+     * 1) In line with horizontal grid.
+     */
+
     .c-masthead__branding {
-        margin-right: 4.5rem;
+        margin-right: 1.6667rem; /* [1] */
     }

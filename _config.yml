@@ -7,7 +7,7 @@
 
 # Site settings
 title: Thomas Byttebier
-description: Personal website of Thomas Byttebier, freelance digital designer. Based in Ghent, Belgium.
+description: Personal website of Thomas Byttebier, freelance digital designer. Based in Gent, Belgium.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thomasbyttebier.be" # the base hostname & protocol for your site
 timezone: Europe/Brussels
@@ -15,3 +15,8 @@ timezone: Europe/Brussels
 # Build settings
 markdown: kramdown
 highlighter: false
+
+# Collections
+collections:
+  portfolio:
+    output: true

@@ -9,9 +9,8 @@
  * 1. u-text-right: right aligns text.
  * 2. u-text-center: center aligns text (horizontally).
  * 3. u-text-left: left align text (horizontally).
+ * 4. u-text-no-underline: hide underline (from links).
  *
- * Especially 1, 2 and 3 will be useful in combination with the grid component.
- * It's possible to align contents of cells with these.
  *
  */
 
@@ -52,4 +51,13 @@
 
 .u-text-left {
 	text-align: left !important;
+}
+
+
+
+
+
+.u-text-no-underline {
+	border-bottom-width: 0 !important;
+	text-decoration: none !important;
 }

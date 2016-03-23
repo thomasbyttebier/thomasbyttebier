@@ -1,0 +1,30 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
+---
+
+{% for item in site.portfolio %}
+  {% if forloop.first %}<ul class="c-list--portfolio">{% endif %}
+    <li class="c-list__item">
+        <article class="c-index">
+            <a href="{{ item.url }}" class="c-index__img u-text-no-underline">
+                <img alt="{{ item.title }} design by Thomas Byttebier" src="{{site.baseurl}}{{item.imgpath}}front.png" srcset="{{site.baseurl}}{{item.imgpath}}front@2x.png 2x">
+            </a>
+            
+            <h2 class="c-index__title"><a href="{{ item.url }}" class="u-text-no-underline">{{ item.title }}</a></h2>
+
+
+
+            <p class="c-index__intro">
+                {{ item.excerpt }}
+                <a href="{{ item.url }}">Read&nbsp;full&nbsp;story.</a>
+            </p>
+        </article>
+
+    </li>
+  {% if forloop.last %}</ul>{% endif %}
+{% else %}
+  <p>Currently reorganizing my portfolio. Stay tuned.</p>
+{% endfor %}

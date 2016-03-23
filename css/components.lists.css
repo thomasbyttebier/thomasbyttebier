@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+
+/**
+ * The lists of posts on the blog and portfolio overview pages.
+ *
+ * 1. c-list--portfolio
+ **/
+
+
+
+
+
+.c-list { }
+
+    .c-list__item { }
+
+    .c-list__date {
+        display: inline-block;
+        width: 6rem;
+    }
+
+.c-list--portfolio {
+    max-width: none;
+}
+
+    .c-list--portfolio .c-list__item:before {
+        content: "";
+    }
