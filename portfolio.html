@@ -9,13 +9,15 @@ no-title: true # Set to true if the page content has no h1 element. Because if i
   {% if forloop.first %}<ul class="c-list--portfolio">{% endif %}
     <li class="c-list__item">
         <article class="c-index">
-            <a href="{{ item.url }}" class="c-index__img u-text-no-underline">
-                <img alt="{{ item.title }} design by Thomas Byttebier" src="{{site.baseurl}}{{item.imgpath}}front.png" srcset="{{site.baseurl}}{{item.imgpath}}front@2x.png 2x">
-            </a>
-            
-            <h2 class="c-index__title"><a href="{{ item.url }}" class="u-text-no-underline">{{ item.title }}</a></h2>
+            <p class="c-index__media">
+                <a href="{{ item.url }}" class="u-text-no-underline">
+                    <img class="c-index__img" alt="{{ item.title }} design by Thomas Byttebier" src="{{site.baseurl}}{{item.imgpath}}front.png" srcset="{{site.baseurl}}{{item.imgpath}}front@2x.png 2x">
+                </a>
+            </p>
 
-
+            <h2 class="c-index__title">
+                <a href="{{ item.url }}" class="u-text-no-underline">{{ item.title }}</a>
+            </h2>
 
             <p class="c-index__intro">
                 {{ item.excerpt }}

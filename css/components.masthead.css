@@ -11,8 +11,14 @@
 
 
 .c-masthead {
-    margin-bottom: 4.16111rem;
+    margin-bottom: 1.38889rem;
 }
+
+    @media only screen and (min-width: 30em) {
+        .c-masthead {
+            margin-bottom: 4.16111rem;
+        }
+    }
 
     /**
      * 1) Overwriting base.type.css

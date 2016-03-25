@@ -7,7 +7,7 @@ permalink: /blog/
 {% for item in site.posts %}
   {% if forloop.first %}<ul class="c-list">{% endif %}
     <li class="c-list__item">
-        <time class="c-list__date" datetime="{{ item.date | date: "%F" }}">{{ item.date | date: "%b %d, %Y" }}</time>
+        <a href="{{ item.url }}" class="u-text-no-underline"><time class="c-list__date" datetime="{{ item.date | date: "%F" }}">{{ item.date | date: "%b %d, %Y" }}</time></a>
         <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
   {% if forloop.last %}</ul>{% endif %}

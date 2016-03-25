@@ -18,7 +18,21 @@
 
     .c-list__date {
         display: inline-block;
-        width: 6rem;
+        width: 100%;
+    }
+
+        .c-list__date:after {
+            content: ":";
+        }
+
+    @media only screen and (min-width: 30em) {
+        .c-list__date {
+            width: 6rem;
+        }
+
+        .c-list__date:after {
+            content: "";
+        }
     }
 
 .c-list--portfolio {

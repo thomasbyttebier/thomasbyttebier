@@ -10,41 +10,52 @@
 
 
 
+/**
+ * 1) Vertical rhythm.
+ */
+
 .c-index {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 2.7778rem; /* [1] */
+    clear: both;
 }
 
-    @media only screen and (min-width: 30em) {
-        .c-index {
-            display: block;
-        }
-    }
-
-    .c-index__img {
-        order: 2;
+    .c-index__media {
+        display: none;
     }
 
         @media only screen and (min-width: 30em) {
-            .c-index__img {
+
+            /**
+             * 1) Horizontal grid size.
+             */
+
+            .c-index__media {
+                display: block;
                 float: left;
+                max-width: 241px; /* [1] */
             }
+
+            .c-index__img {
+                max-width: 100%;
+            }
+
         }
 
     .c-index__title {
-        order: 1;
+
     }
 
         @media only screen and (min-width: 30em) {
             .c-index__title {
                 margin-left: 271px;
+                margin-bottom: 0;
             }
         }
 
 
 
     .c-index__intro {
-        order: 3;
+
     }
 
         @media only screen and (min-width: 30em) {
