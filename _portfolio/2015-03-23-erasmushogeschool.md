@@ -2,9 +2,10 @@
 layout: post
 title:  Erasmus Hogeschool Brussel
 date:   2015-03-23
-imgpath: /assets/images/portfolio/2015-03-23/
+imgpath: /assets/images/portfolio/erasmushogeschool/
 permalink: /portfolio/:title
 frontpic: front.png
+order: 10
 excerpt: "Erasmus Hogeschool is one of the larger institutes of higher education based in Brussels. It consists of six departments, including two Schools of Arts. I was approached by Erasmus Hogeschool Brussel to redesign their website."
 ---
 

@@ -1,0 +1,30 @@
+Title: Still Architecten
+----
+Introbeeld: intro-medium.jpg
+----
+Introbeeldsmall: intro-small.jpg
+----
+Introbeeldclass: screenshot scaled
+----
+Introbeeldalt: Still Architecten web design
+----
+Text: 
+<p class="descriptive">(link: http://still-architecten.be text: Still Architecten) is an architecture studio based in Kortrijk, Belgium. I designed their portfolio website.</p>
+
+(picturefill: project-kleur-small.jpg class: screenshot notscaled alt: screenshot still architecten webdesign medium: project-kleur-medium.jpg large: project-kleur-large.jpg)
+
+<p class="descriptive">I removed all interface clutter to come up with a very clean design. The big project photos are key to the design, to clearly show what Still is about.</p>
+
+(picturefill: project-luc-small.jpg class: screenshot notscaled alt: web design still architects medium: project-luc-medium.jpg large: project-luc-large.jpg)
+
+<p class="descriptive">The website is responsive. That means its layout perfectly adapts to the varying screen sizes of smartphones, tablets and regular computers. That makes the site perfectly usable on all mobile devices.</p>
+
+(picturefill: responsive-demo-small.jpg alt: madebywolf.com on tablet and smartphone as it is responsive medium: responsive-demo-medium.jpg large: responsive-demo-large.jpg extralarge: responsive-demo-extralarge.jpg)
+
+<p class="descriptive">I couldn't help but add a fun little detail to the website: as soon as the browser window loses focus, the photos turn fully black and white:</p>
+
+(picturefill: project-kleurverandering-small.gif class: screenshot notscaled alt: screenshot still architecten webdesign medium: project-kleurverandering-medium.gif large: project-kleurverandering-large.gif)
+
+<p class="descriptive">Still Architects Eefje and Kaat can easily update the site's content. The back-end code for that is provided by (link: http://getkirby.com text: Kirby), a fantastic light-weight content management system.</p>
+
+<p class="descriptive">(link: http://still-architecten.be text: Visit the Still Architecten website.)</p>

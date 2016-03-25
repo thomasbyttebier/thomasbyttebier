@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #MEDIA-UTILITIES
+\*------------------------------------*/
+
+/**
+ * These are utilities for media.
+ *
+ * Available utilities in this file:
+ * 1. u-media-unconstrained: no constrains on the size of the image.
+ * 2. u-media-unconstrained-height: no constrains on the height of the image.
+ *
+ *
+ */
+
+
+
+
+
+.u-media-unconstrained {
+    max-height: none !important;
+	max-width: none !important;
+}
+
+
+
+
+.u-media-unconstrained-height {
+	max-height: none !important;
+}

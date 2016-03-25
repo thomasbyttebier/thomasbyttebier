@@ -1,0 +1,24 @@
+Title: Kwinta
+----
+Introbeeld: intro-medium.png
+----
+Introbeeldsmall: intro-small.png
+----
+Introbeeldclass: screenshot scaled
+----
+Introbeeldalt: Kwinta responsive web design
+----
+Text: 
+<p class="descriptive">Kwinta is a new brand of the Flemish Centre for Quality (Vlaams Centrum voor Kwaliteitszorg). Kwinta brings news and information on the topic of quality through innovation and talent. I was asked to design the Kwinta website in 2013.</p>
+
+(picturefill: home-small.png class: screenshot alt: screenshot kwinta webdesign medium: home-medium.png large: home-large.png extralarge: home-xl.png)
+
+<p class="descriptive">Of course the website was designed to scale seamlessly to the varying viewports of all kinds of devices.</p>
+
+(picturefill: responsive-demo-small.png alt: web design kwinta medium: responsive-demo-medium.png large: responsive-demo-large.png extralarge: responsive-demo-xl.png)
+
+<p class="descriptive">As this is in part a news site, the design focuses heavily on readability and ease of use.</p>
+
+(picturefill: sluit-aan-small.png class: screenshot alt: screenshot kwinta webdesign medium: sluit-aan-medium.png large: sluit-aan-large.png extralarge: sluit-aan-xl.png)
+
+<p class="descriptive">(link: http://kwinta.be text: Kwinta) was designed by me, then handed over to a web development company that put it to life using Drupal.</p>

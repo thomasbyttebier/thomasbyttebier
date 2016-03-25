@@ -5,7 +5,8 @@ permalink: /portfolio/
 no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
 ---
 
-{% for item in site.portfolio %}
+{% assign items = site.portfolio | sort: 'order' %}
+{% for item in items %}
   {% if forloop.first %}<ul class="c-list--portfolio">{% endif %}
     <li class="c-list__item">
         <article class="c-index">
