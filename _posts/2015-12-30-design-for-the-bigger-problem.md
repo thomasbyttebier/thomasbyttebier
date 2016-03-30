@@ -4,6 +4,7 @@ title:  Design for the bigger problem
 date:   2015-12-30
 imgpath: /assets/images/2015-12-30/
 permalink: /blog/:title
+featured: true
 excerpt: The hardest part of design lies in fully understanding the problem you're designing a solution for. In interface design this always boils down to user research. It's so fricking important.
 ---
 I watched this video yesterday of an [excellent Ted talk by Paul Bennett](https://www.youtube.com/watch?v=7g0O003kufA), designer at Ideo. Although it dates back to 2005, its message will never get old. Somewhere halfway [Bennett](https://www.ideo.com/people/paul-bennett) talks about designing a handheld device for use by nurses during a radical medical operation. Here's the anecdote (6&nbsp;min&nbsp;51&nbsp;sec – 8&nbsp;min&nbsp;25&nbsp;sec):

@@ -4,6 +4,7 @@ title:  A clear interface is a better interface
 date:   2015-03-16
 imgpath: /assets/images/2015-03-16/
 permalink: /blog/:title
+featured: true
 excerpt: Clarity is probably the first and most important characteristic of good user interface design. A clear interface is simply a better interface. I don’t think anyone will argue with that.
 ---
 

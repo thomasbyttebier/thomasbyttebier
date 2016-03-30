@@ -3,11 +3,14 @@ layout: default
 title: About
 permalink: /about/
 ---
+I'm Thomas Byttebier. I'm a freelance digital designer shaping, teaching and coding the web for almost two decades now. I want the digital products I touch to be delightful to use. I strongly believe good design reduces to the essence.
 
-I'm Thomas Byttebier. I studied graphic design at the turn of the millennium and quickly fell in love with the interactive nature of the web. I’ve grown to believe that web sites should be as simple and clear as possible. Users shouldn’t have to think to find their way.
+I design web sites, user experiences, interfaces, apps and all kinds of digital products. I research, talk to users, sketch flows and interactions. I prototype and test them. I simplify. I write accessible and semantic HTML and CSS.
 
-Great web design is flexible and accessible to anyone on any device. Great web design affects people in positive ways. Great web design is beautiful.
+If you want to know more, here's a few key articles on [my blog]({{ site.baseurl }}/blog) that should give you an overall idea of my thoughts on design:
 
-I work as a freelancer. I design websites, user interfaces and apps. I sketch flows and interactions. I transform them to HTML and CSS. I teach web design and occasionally speak in public. I love art, design and typography.
+{% include featured-posts.html %}
 
-I live in the beautiful city of Ghent, Belgium. [Send me an email](mailto: thomas@thomasbyttebier.be) if you want to work with me. I'm [bytte on Twitter](https://twitter.com/bytte). Eventually you can reach me by phone: +32 473 93 81 14.
+Want to work with me? Great! [Send me an email.](mailto:{{ site.email | encode_email }}) I live in the beautiful city of Gent in Belgium — but have successfully worked remotely in teams on many projects.
+
+Occasionally I talk design in public. Most of the time just [on Twitter](https://twitter.com/bytte) though. And eventually you can reach me by phone: +32&nbsp;473&nbsp;93&nbsp;81&nbsp;14.
