@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Still Architecten
+title:  Still Architectuur
 date:   2013-07-24
 imgpath: /assets/images/portfolio/still/
 permalink: /portfolio/:title
 frontpic: front.png
 order: 40
-excerpt: "Still Architectuur is a studio of architects based in Kortrijk, Belgium. I designed their portfolio website."
+excerpt: "Still Architectuur is a studio of talented architects based in Kortrijk, Belgium. I designed and developed Still's portfolio website."
 ---
 
 Still Architectuur is a studio of architects based in Kortrijk, Belgium. I designed their portfolio website in 2013.
