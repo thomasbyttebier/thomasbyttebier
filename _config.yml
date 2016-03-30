@@ -11,6 +11,7 @@ description: Thomas Byttebier is a freelance digital designer from Gent, Belgium
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thomasbyttebier.be" # the base hostname & protocol for your site
 timezone: Europe/Brussels
+email: thomas@thomasbyttebier.be
 
 # Build settings
 markdown: kramdown
@@ -20,3 +21,6 @@ highlighter: false
 collections:
   portfolio:
     output: true
+
+gems:
+- jekyll-email-protect
