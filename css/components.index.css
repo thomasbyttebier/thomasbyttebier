@@ -42,13 +42,12 @@
         }
 
     .c-index__title {
-
+        margin-bottom: 0;
     }
 
         @media only screen and (min-width: 30em) {
             .c-index__title {
                 margin-left: 271px;
-                margin-bottom: 0;
             }
         }
 
