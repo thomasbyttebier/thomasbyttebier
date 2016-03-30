@@ -11,6 +11,6 @@ If you want to know more, here's a few key articles on [my blog]({{ site.baseurl
 
 {% include featured-posts.html %}
 
-Want to work with me? Great! [Send me an email.](mailto:{{ site.email | encode_email }}) I live in the beautiful city of Gent in Belgium — but have successfully worked remotely in teams on many projects.
+Want to work with me? Great! [Send me an email.](mailto:{{ site.email | encode_email }}) I live in the beautiful city of Gent in Belgium — but have successfully worked remotely in team on many projects.
 
-Occasionally I talk design in public. Most of the time just [on Twitter](https://twitter.com/bytte) though. And eventually you can reach me by phone: +32&nbsp;473&nbsp;93&nbsp;81&nbsp;14.
+Occasionally I talk design in public. Most of the time just [on Twitter](https://twitter.com/bytte) though. Eventually you can reach me by phone: +32&nbsp;473&nbsp;93&nbsp;81&nbsp;14.
