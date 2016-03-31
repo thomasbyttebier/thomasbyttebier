@@ -16,20 +16,25 @@
  * 1) IE8 and earlier fall-back.
  * 2) Breaking out of the p container. Using the full viewport width minus the
  *    left and right padding as defined on the html element in base.type.css.
- */
-
-img {
-    max-width: 100%; /* [1] */
-    max-width: calc(100vw - 3.4444444rem); /* [2] */
-}
-
-/**
- * 1) We don't want to overwhelm a user with an image. It can grow as wide as
+ * 3) We don't want to overwhelm a user with an image. It can grow as wide as
  *    the viewport, but should never get higher than a percentage of the
  *    viewport height. The image is always fully visible and parts of the text
  *    remain in sight, which is good.
  */
 
 img {
-    max-height: 78vh; /* [1] */
+    max-width: 100%; /* [1] */
+    max-width: calc(100vw - 3.4444444rem); /* [2] */
+    max-height: 78vh; /* [3] */
 }
+
+    /**
+     * JS sets the js-is-blurred class on the body element on blur.
+     * And js-is-focused on focus.
+     */
+
+    .js-is-blurred img {
+        -moz-filter: grayscale();
+        -webkit-filter: grayscale();
+        filter: grayscale();
+    }

@@ -38,6 +38,13 @@ html {
 
 
 
+::selection {
+    background-color: rgb(220, 220, 220);
+}
+
+
+
+
 
 /**
  * The baseline grid and measure.
