@@ -35,6 +35,12 @@
     margin-bottom: 1.38889rem; /* [5] */
 }
 
+    @media print {
+        .o-media-container {
+            display: none;
+        }
+    }
+
     .o-media-container--3-2 {
         height: calc((100vw - 3.4444444rem) * 2 / 3); /* [2] */
         max-width: calc(78vh * 3 / 2); /* [4] */
