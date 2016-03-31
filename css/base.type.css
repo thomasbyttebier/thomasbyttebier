@@ -17,18 +17,7 @@
  */
 
 html {
-    font-family: Tisa, serif;
-    font-weight: 400;
     font-size: 1.1875em;
-    line-height: 1.38889;
-    color: rgb(33, 33, 33);
-    -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
-    -moz-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
-    -moz-font-feature-settings: "kern=1, liga=1"; /* [1] */
-    -ms-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
-    -o-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
-    font-feature-settings: "kern" 1, "liga" 1; /* [1] */
-    text-transform: none;
 }
 
     @media only screen and (min-width: 30em) {
@@ -38,6 +27,17 @@ html {
     }
 
 body {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    line-height: 1.38889;
+    color: rgb(33, 33, 33);
+    -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -moz-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -moz-font-feature-settings: "kern=1, liga=1"; /* [1] */
+    -ms-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    -o-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    font-feature-settings: "kern" 1, "liga" 1; /* [1] */
+    text-transform: none;
     padding-left: .8rem;
     padding-top: .8rem;
     padding-right: .8rem;
@@ -51,6 +51,10 @@ body {
             padding-right: 1.72222222rem;
             padding-bottom: 1.72222222rem;
         }
+    }
+
+    .js-fonts-loaded body {
+        font-family: Tisa, Georgia, serif;
     }
 
 

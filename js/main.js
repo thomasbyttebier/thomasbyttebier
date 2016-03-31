@@ -1,3 +1,9 @@
+var font = new FontFaceObserver('Tisa');
+
+font.load().then(function () {
+  document.documentElement.className += " js-fonts-loaded";
+});
+
 function onBlur() {
     document.body.className = 'js-is-blurred';
 };

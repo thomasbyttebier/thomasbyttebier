@@ -9,6 +9,7 @@
 
         {{ content }}
 
+        <script src="{{ "/js/vendor/fontfaceobserver.js" | prepend: site.baseurl }}"></script>
         <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
         {% if jekyll.environment == "production" %}
