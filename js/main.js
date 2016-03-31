@@ -1,6 +1,12 @@
-var font = new FontFaceObserver('Tisa');
+var fontA = new FontFaceObserver('Tisa', {
+    weight: 400
+});
 
-font.load().then(function () {
+var fontB = new FontFaceObserver('Tisa', {
+    weight: 700
+});
+
+Promise.all([fontA.load(), fontB.load()]).then(function () {
   document.documentElement.className += " js-fonts-loaded";
 });
 
