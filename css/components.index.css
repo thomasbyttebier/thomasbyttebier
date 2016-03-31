@@ -23,7 +23,7 @@
         display: none;
     }
 
-        @media only screen and (min-width: 30em) {
+        @media only screen and (min-width: 45em) {
 
             /**
              * 1) Horizontal grid size.
@@ -35,17 +35,17 @@
                 max-width: 241px; /* [1] */
             }
 
-            .c-index__img {
-                max-width: 100%;
-            }
-
         }
+
+    .c-index__img {
+        max-width: 100%;
+    }
 
     .c-index__title {
         margin-bottom: 0;
     }
 
-        @media only screen and (min-width: 30em) {
+        @media only screen and (min-width: 45em) {
             .c-index__title {
                 margin-left: 271px;
             }
@@ -57,7 +57,7 @@
 
     }
 
-        @media only screen and (min-width: 30em) {
+        @media only screen and (min-width: 45em) {
             .c-index__intro {
                 margin-left: 271px;
             }
