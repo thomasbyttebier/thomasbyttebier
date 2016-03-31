@@ -27,13 +27,20 @@
 
 .o-media-container {
     position: relative;
-    width: calc(100vw - 3.4444444rem); /* [1] */
-    height: calc((100vw - 3.4444444rem) * 9 / 16); /* [2] */
+    width: calc(100vw - 1.6rem); /* [1] */
+    height: calc((100vw - 1.6rem) * 9 / 16); /* [2] */
     max-height: 78vh; /* [3] */
     max-width: calc(78vh * 16 / 9); /* [4] */
     overflow: hidden;
     margin-bottom: 1.38889rem; /* [5] */
 }
+
+    @media only screen and (min-width: 30em) {
+        .o-media-container {
+            width: calc(100vw - 3.4444444rem); /* [1] */
+            height: calc((100vw - 3.4444444rem) * 9 / 16); /* [2] */
+        }
+    }
 
     @media print {
         .o-media-container {
@@ -42,20 +49,38 @@
     }
 
     .o-media-container--3-2 {
-        height: calc((100vw - 3.4444444rem) * 2 / 3); /* [2] */
+        height: calc((100vw - 1.6rem) * 2 / 3); /* [2] */
         max-width: calc(78vh * 3 / 2); /* [4] */
     }
 
+        @media only screen and (min-width: 30em) {
+            .o-media-container--3-2 {
+                height: calc((100vw - 3.4444444rem) * 2 / 3); /* [2] */
+            }
+        }
+
     .o-media-container--4-3 {
-        height: calc((100vw - 3.4444444rem) * 3 / 4); /* [2] */
+        height: calc((100vw - 1.6rem) * 3 / 4); /* [2] */
         max-width: calc(78vh * 4 / 3); /* [4] */
     }
 
+        @media only screen and (min-width: 30em) {
+            .o-media-container--4-3 {
+                height: calc((100vw - 3.4444444rem) * 3 / 4); /* [2] */
+            }
+        }
+
     .o-media-container--slideshare {
-        height: calc(((100vw - 3.4444444rem) * 3 / 4) + 44px);
+        height: calc(((100vw - 1.6rem) * 3 / 4) + 44px);
         max-width: calc((78vh - 44px) * 4 / 3); /* [4] */
         border: 1px solid rgb(33, 33, 33);
     }
+
+        @media only screen and (min-width: 30em) {
+            .o-media-container--slideshare {
+                height: calc(((100vw - 3.4444444rem) * 3 / 4) + 44px);
+            }
+        }
 
     /**
      * 1) The iframe, object or embed element.

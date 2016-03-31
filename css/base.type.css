@@ -29,10 +29,6 @@ html {
     -o-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
     font-feature-settings: "kern" 1, "liga" 1; /* [1] */
     text-transform: none;
-    padding-left: 1.72222222rem;
-    padding-top: 1.72222222rem;
-    padding-right: 1.72222222rem;
-    padding-bottom: 1.72222222rem;
 }
 
     @media only screen and (min-width: 30em) {
@@ -40,6 +36,23 @@ html {
             font-size: 1.125em;
         }
     }
+
+body {
+    padding-left: .8rem;
+    padding-top: .8rem;
+    padding-right: .8rem;
+    padding-bottom: .8rem;
+}
+
+    @media only screen and (min-width: 30em) {
+        body {
+            padding-left: 1.72222222rem;
+            padding-top: 1.72222222rem;
+            padding-right: 1.72222222rem;
+            padding-bottom: 1.72222222rem;
+        }
+    }
+
 
 
 
@@ -213,8 +226,14 @@ ul {
 	ul li:before {
 		content: "–"; /* [1] */
 		position: absolute; /* [2] */
-		left: -.9em; /* [2] */
+		left: -.65em; /* [2] */
 	}
+
+    @media only screen and (min-width: 30em) {
+        ul li:before {
+            left: -.9em;
+        }
+    }
 
 /**
  * 1) Normal list-style-items are positioned a bit too far inside the margin.
