@@ -13,4 +13,4 @@ If you want to know more, here's a few key articles on [my blog]({{ site.baseurl
 
 {% include featured-posts.html %}
 
-[Send me an email](mailto:{{ site.email | encode_email }}) if you want to work with me. I live in the beautiful city of Gent in Belgium — but have successfully worked remotely in teams on many projects. You can find me talking design [on Twitter](https://twitter.com/bytte) as well. And eventually you can reach me by phone: +32&nbsp;473&nbsp;93&nbsp;81&nbsp;14.
+[Send me an email](mailto:{{ site.email | encode_email }}) if you want to work with me. I live in the beautiful city of Ghent in Belgium — but have successfully worked remotely in teams on many projects. You can find me talking design [on Twitter](https://twitter.com/bytte) as well. And eventually you can reach me by phone: +32&nbsp;473&nbsp;93&nbsp;81&nbsp;14.
