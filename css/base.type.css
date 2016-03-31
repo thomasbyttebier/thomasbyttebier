@@ -19,7 +19,7 @@
 html {
     font-family: Tisa, serif;
     font-weight: 400;
-    font-size: 1.125em;
+    font-size: 1.25em;
     line-height: 1.38889;
     color: rgb(33, 33, 33);
     -webkit-font-feature-settings: "kern" 1, "liga" 1; /* [1] */
@@ -34,6 +34,12 @@ html {
     padding-right: 1.72222222rem;
     padding-bottom: 1.72222222rem;
 }
+
+    @media only screen and (min-width: 30em) {
+        html {
+            font-size: 1.125em;
+        }
+    }
 
 
 
