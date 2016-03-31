@@ -124,11 +124,17 @@ h4, h5, h6 {
 
 blockquote {
     border-left: 2px solid rgb(33, 33, 33);
-    padding-left: .7em;
-    margin-left: -.7em;
+    padding-left: .4em;
+    margin-left: -.4em;
     font-style: italic;
 }
 
+    @media only screen and (min-width: 30em) {
+        blockquote {
+            padding-left: .7em;
+            margin-left: -.7em;
+        }
+    }
 
 
 
@@ -182,11 +188,16 @@ pre {
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: .9rem; /* [3] */
-    margin-left: -.9rem; /* [3] */
-    margin-right: -.9rem;
     padding-right: .9rem;
     border-radius: 2px;
 }
+
+    @media only screen and (min-width: 30em) {
+        pre {
+            margin-left: -.9rem; /* [3] */
+            margin-right: -.9rem;
+        }
+    }
 
 
 
