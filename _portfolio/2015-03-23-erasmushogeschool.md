@@ -9,7 +9,7 @@ order: 10
 excerpt: "Erasmushogeschool is one of the larger institutes of higher education based in Brussels. I designed their web site and provided a well-documented design system that allows web masters to create new pages in a modular way."
 ---
 
-Erasmus Hogeschool is one of the larger institutes of higher education based in Brussels. It consists of six departments, including two Schools of Arts. I was approached by Erasmus Hogeschool Brussel to redesign their website. Here’s the home page:
+Erasmushogeschool is one of the larger institutes of higher education based in Brussels. It consists of six departments, including two Schools of Arts. I was approached by Erasmus to redesign their website. Here’s the home page:
 
 <img
     class="u-media-unconstrained-height c-screenshot"

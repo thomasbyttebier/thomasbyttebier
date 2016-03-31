@@ -2,6 +2,8 @@
 layout: default
 title: About
 permalink: /about/
+no-title: true
+meta-description: "About Thomas Byttebier: I design web sites, user experiences, interfaces, apps and all kinds of digital products. I research, talk to users, sketch flows and interactions. I prototype and test them. I simplify. I write accessible and semantic HTML and CSS."
 ---
 I'm Thomas Byttebier. I'm a freelance digital designer shaping, teaching and coding the web for almost two decades now. I want the digital products I touch to be delightful to use. I strongly believe good design reduces to the essence.
 
