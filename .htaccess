@@ -65,7 +65,7 @@ ErrorDocument 404 /404/
 #
 # https://httpd.apache.org/docs/current/content-negotiation.html#multiviews
 
-Options -MultiViews
+Options +MultiViews
 
 
 # ######################################################################
