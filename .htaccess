@@ -1,6 +1,9 @@
 # redirect urls of v2 to its new location #
 Redirect 301 /2/ http://thomasbyttebier.be/v2/2/
 
+# redirect feed to its new location #
+Redirect 301 /blog/feed http://thomasbyttebier.be/feed.xml
+
 # Apache Server Configs v2.14.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
