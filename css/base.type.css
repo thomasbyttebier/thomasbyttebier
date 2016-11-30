@@ -256,6 +256,12 @@ ul {
  */
 
 ol {
-    list-style-position: inside; /* [1] */
-    margin-left: -.9em; /* [1] */
+    margin-left: 1em;
 }
+
+    @media only screen and (min-width: 30em) {
+        ol {
+            list-style-position: outside;
+            margin-left: 0;
+        }
+    }
