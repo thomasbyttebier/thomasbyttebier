@@ -3,9 +3,10 @@ layout: post
 title:  The bold beauty of content prototypes
 date:   2016-11-30
 imgpath: /assets/images/2016-11-30/
+metaimage: content-prototype-example.png
 permalink: /blog/:title
-featured: true
-excerpt: How starting from a content prototype has taught us to see design as progressive enhancement to content. It helped us tackle three major pain points in our current design and development workflow too.
+featured: false
+excerpt: How starting with a content prototype has taught us to see design as progressive enhancement to content. It helped us tackle three major pain points in our current design and development workflow too.
 ---
 A little over half a year ago I joined the digital team at [Base](http://basedigital.io). It’s been a crazy six months. And in all honesty: I struggled. I struggled with process. I struggled with communication. I struggled with clients. Front end was too far from design and content only arrived when a project was nearly live.
 
@@ -86,10 +87,12 @@ Based on the content prototype, we design mobile-first in Sketch, then add the m
 
 And that’s exactly what we did next: as soon as the mobile CSS was there, we tested the living prototype with the target audience. The tests clearly showed us usability problems that were mostly quick and easy to correct at this point in the process.
 
-These usability tests are very important, and the last big part of the puzzle I felt we lacked in our process before. The tests allowed us to take design decisions based on feedback by the target audience, rather than our very own designer gut feeling. And that’s extremely important. At Base it’s part of our DNA: we don’t design for designers, we design for people.
+These usability tests are very important, and the last big part of the puzzle I felt we lacked in our process before. The tests allowed us to take design decisions based on feedback by the target audience, rather than our very own designer gut feeling. And that’s extremely important. At [Base](http://basedigital.io) it’s part of [our DNA](https://basedesign.com/about/#manifesto): we don’t design for designers, we design for people.
 
 ## Looking back
 
 In a way, the content prototype has taught us to see design as progressive enhancement to content. And it helped us tackle three major pain points in our current design and development workflow. We’re still only halfway through the project, so it may be too soon to jump to conclusions. But as we explore, commit and refine the prototype, the confidence grows that one day we’ll have a releasable thing that feels better than anything we did before. 
 
 We’re definitely not there yet, but I’m confident we will be soon.
+
+(Update: I've now published [a follow-up to this post](http://thomasbyttebier.be/blog/mood-boards-in-a-content-first-design-process).)
