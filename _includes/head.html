@@ -28,13 +28,38 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    <meta property="og:title" content="Thomas Byttebier">
+
+    <!-- facebook open graph tags -->
+{% if page.layout == 'post' %}
+    <meta property="og:type" content="article">
+    {% if page.metaimage %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.imgpath }}{{ page.metaimage }}">{% endif %}
+{% else %}
     <meta property="og:type" content="profile">
     <meta property="og:profile:first_name" content="Thomas">
     <meta property="og:profile:last_name" content="Byttebier">
-    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/thomas-byttebier-avatar-400-web.jpg">
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="400">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+{% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %} — {{ site.title }}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% elsif page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
+
+
+    <!-- additional twitter meta tags -->
+{% if page.layout == 'post' %}
+    <meta name="twitter:card" content="summary_large_image">
+    {% if page.metaimage %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.imgpath }}{{ page.metaimage }}">{% endif %}
+{% else %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/thomas-byttebier-avatar-400-web.jpg">
+    <meta name="twitter:image:alt" content="Avatar of Thomas Byttebier">
+{% endif %}
+    <meta name="twitter:site" content="@bytte">
+    <meta name="twitter:creator" content="@bytte">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% endif %} — {{ site.title }}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% elsif page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
+
+
+
 </head>
