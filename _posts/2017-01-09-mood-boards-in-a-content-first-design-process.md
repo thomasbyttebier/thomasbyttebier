@@ -60,7 +60,7 @@ That last point is a very important benefit. I found that presenting something a
 2. You can adjust and fine-tune things more easily. If it took you weeks to build hi-fi comps of all key pages and UI elements, and ultimately your client is not impressed, it’s going to be a tedious process to get everything back on track. It’s just not the right process.
 3. And last but not least: you receive better feedback from your clients. It happens because you present the right thing at the right time. And that makes sure the discussion focuses on the right subject.
 
-## Better feedback
+## Better client conversations
 
 Better feedback is truly a key advantage of design mood boards I hadn’t anticipated. And feedback is so important if we want to improve our work. [Ken Blanchard](https://en.wikipedia.org/wiki/Ken_Blanchard) once said:
 
