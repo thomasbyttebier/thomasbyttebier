@@ -9,7 +9,7 @@
 title: Thomas Byttebier
 description: Thomas Byttebier is a freelance digital designer from Gent, Belgium. Thomas wants digital products and web sites to be delightful to use. Thomas believes good design reduces to the essence.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://thomasbyttebier.be" # the base hostname & protocol for your site
+url: "https://thomasbyttebier.be" # the base hostname & protocol for your site
 timezone: Europe/Brussels
 email: thomas@thomasbyttebier.be
 
