@@ -25,11 +25,5 @@ collections:
 gems:
 - jekyll-email-protect
 
-# asset bundler
-asset_bundler:
-  compress:
-    js: yui
-    css: yui
-  markup_templates:
-    css: '<link rel="stylesheet" href="{{url}}">'
-  base_path: "bundles/"
+sass:
+    style: compressed
