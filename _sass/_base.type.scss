@@ -265,3 +265,20 @@ ol {
             margin-left: 0;
         }
     }
+
+
+
+hr {
+    border: 0;
+    border-top: 1px solid black;
+    width: 5rem;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    background-color: transparent;
+    height: 1px;
+    margin-bottom: 2.77778rem; /* [1] */
+    margin-top: 2.77778rem;
+}
+
+    
