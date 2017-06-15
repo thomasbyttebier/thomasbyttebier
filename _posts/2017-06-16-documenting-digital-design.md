@@ -33,4 +33,4 @@ The [uncontrollable nature of the web](https://alistapart.com/article/dao) is on
 
 I first assumed a collection of videos could suffice, like it’s done to some extent on [gallery websites](http://littlebigdetail.com). But now I’d like to push it further, make it richer, more real. The challenge really is how to get as close as possible to the product’s original user experience.
 
-If we solve that, we’ll know how to create the digital design library inside our studio. So if you figured it out, I’d love to hear about it. 🙃
+If we solve that, we’ll know how to create the digital design library inside our studio in the most fulfilling way. So if you figured it out, I’d love to hear about it. 🙃
