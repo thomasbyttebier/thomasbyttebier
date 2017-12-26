@@ -7,16 +7,11 @@
         {% if page.no-title == true %}<h2 class="c-masthead__subtitle c-masthead__line">{% else %}<p class="c-masthead__subtitle c-masthead__line">{% endif %}
             Freelance digital designer
         {% if page.no-title == true %}</h2>{% else %}</p>{% endif %}
-
-        <p class="c-masthead__line">
-            Interfaces, <abbr title="User experience design">UX</abbr>, web sites
-        </p>
     </div><!--
 
     --><nav class="c-masthead__nav">
         <ul class="c-nav">
-            <li class="c-nav__item"><a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
-            <li class="c-nav__item"><a href="{{ "/portfolio/" | prepend: site.baseurl }}">Work</a></li>
+            <li class="c-nav__item"><a href="{{ "/" | prepend: site.baseurl }}">About</a></li>
             <li class="c-nav__item"><a href="{{ "/blog/" | prepend: site.baseurl }}">Writing</a></li>
         </ul>
     </nav>
