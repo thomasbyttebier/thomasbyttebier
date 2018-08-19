@@ -7,7 +7,7 @@ I am a freelance digital designer shaping, teaching and coding the web for almos
 
 I design web sites and digital products. I research, talk to users, sketch flows and interactions. I prototype and test them. I simplify. I write accessible and semantic HTML and CSS.
 
-I am currently Digital Director at [Base Design](https://basedesign.com). We work for institutions and brands such as Delvaux, Haus der Kunst, Musée Yves Saint Laurent, Fondation Cartier, Fondation Luma, Graanmarkt 13, Maison Dandoy and PSLab.
+I am currently Digital Director at [Base Design](https://basedesign.com). We work for institutions and brands such as Delvaux, Art &amp; History Museum, Haus der Kunst, MoMu, Musée Yves Saint Laurent, Fondation Cartier pour l'art contemporain and PSLab.
 
 I am also lector digital design at [Luca School of Arts](http://www.luca-arts.be) in Ghent.
 
