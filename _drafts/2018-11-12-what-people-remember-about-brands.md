@@ -24,9 +24,9 @@ There is a reasonable chance that if you're reading this, you work in an office 
 
 ![Sameness in today's coffee shop interiors]({{site.baseurl}}{{page.imgpath}}03-sameness-coffeeshops.gif)
 
-Chances are high that you have a phone in your pocket that looks similar to these ones:
+Chances are high that you have a phone in your pocket that looks similar to this one:
 
-![Sameness in today's phone product design]({{site.baseurl}}{{page.imgpath}}04-sameness-phones.gif)
+![Sameness in today's phone product design]({{site.baseurl}}{{page.imgpath}}04-sameness-phones.jpg)
 
 Hell, if you visit your local supermarket, you'll realize even salad packaging all looks the same nowadays.
 
@@ -190,9 +190,11 @@ Those feelings can be vague sometimes, even hard to put words on. But what is cl
 
 ## How to evoke feelings?
 
-And so, as we reach the end of this article, the main question becomes: how can we use digital to evoke feelings?
+And so, as we reach the end of this article, the final question becomes: how can we use digital to evoke feelings?
 
-Fortunately, there is no simple answer to this question. Much value lies in bringing it up, time and time again.
+Fortunately, there is no simple answer to this question.
+
+The question in itself may be deceptively simple, or obvious, but what is certain is that it inherently holds a lot of value. Enough to justify asking it over and over again, with each project and every brief.
 
 ## Conclusion
 
