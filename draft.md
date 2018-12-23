@@ -65,7 +65,7 @@ Now this is where things get super interesting. Because by doing this, we potent
 
 ![A new square, bigger than the previous square, now encloses the circle]({{site.baseurl}}{{page.imgpath}}10-frame-constraints.png)
 
-Before 1933, subway maps were relatively hard to read because designers always drew them on an accurate geographical map. It seemed the logical thing to do. Here's an example of the London Underground map as it existed in 1908:
+Before 1933, subway maps were relatively hard to read because designers always drew them on an accurate geographical map. It seemed the logical thing to do. Here's an [example](https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-2683#) of the London Underground map as it existed in 1908:
 
 ![London Underground map of 1908]({{site.baseurl}}{{page.imgpath}}11-london-map-1908.jpg "copyright London Transport Museum")
 
@@ -73,7 +73,7 @@ After the thirties however, subway maps of major cities worldwide started to loo
 
 ![Vignelli NYC subway map of 1972]({{site.baseurl}}{{page.imgpath}}12-vignelli-subway-map-1972.jpg)
 
-What happened in the thirties? Harry Beck. Beck brilliantly designed a new kind of map for the London Underground. First introduced in 1933, the map focuses on what matters most to people using the Underground: the tube lines, stops and exchanges. Beck also added the river Thames to the map, an important point of recognition for most Londoners.
+What happened in the thirties? Harry Beck. Beck brilliantly designed a new kind of map for the London Underground. First introduced in 1933, [the map](https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321) focuses on what matters most to people using the Underground: the tube lines, stops and exchanges. Beck also added the river Thames to the map, an important point of recognition for most Londoners.
 
 ![Harry Beck's London Underground map of 1933]({{site.baseurl}}{{page.imgpath}}13-harry-beck-london-tube-map-1933.jpg "copyright London Transport Museum")
 
@@ -87,7 +87,7 @@ Let's fast forward to 2010 for another example, redefining web design. Less than
 
 Brands had to adapt to this new type of user. Some created standalone iOS and Android apps that were basically a mobile version of their website, others created a new and dedicated mobile version of their existing website. Whatever solution they opted for, it meant content duplication and additional development costs. It was a dreadful situation.
 
-But in 2010, using a combination of forthcoming technologies, Ethan Marcotte found a brilliant solution to the problem. He developed a simple approach that allowed designers to make the same website look great on all kinds of devices: from small smartphone touch screens to large desktop screens. He coined the term [responsive web design](https://alistapart.com/article/responsive-web-design).
+But in 2010, using a combination of forthcoming technologies, [Ethan Marcotte](https://ethanmarcotte.com) found a brilliant solution to the problem. He developed a simple approach that allowed designers to make the same website look great on all kinds of devices: from small smartphone touch screens to large desktop screens. He coined the term [responsive web design](https://alistapart.com/article/responsive-web-design).
 
 In 2011 Marcotte and his team designed and developed The Boston Globe, the first real content-heavy responsive website.
 
@@ -113,7 +113,7 @@ It is part of the reason why all subway maps worldwide look the same today. If H
 
 Moreover, people traveling worldwide start to expect a subway map to look similar to the ones they know. It helps them navigate and understand that map more quickly. This is important as it means a similarly designed map now addresses the needs more accurately than a map that looks different.
 
-And look, all subway maps look the same everywhere in the world...
+And look, from a graphic design point of view, all subway maps look the same everywhere in the world...
 
 ![Barcelona, Berlin and Beijing subway maps all look the same]({{site.baseurl}}{{page.imgpath}}17-subway-maps-sameness.gif)
 
@@ -181,7 +181,7 @@ It always boils down to this: brands are like people. And as much as we recogniz
 
 Think about an encounter you had lately with a person you met for the first time. Maybe it was at a party? Maybe even a work meeting? What is striking is that what you remembered the day after, was most likely not how that person dressed exactly. Nor was it the precise words she said. What remained though is leftover feelings.
 
-Maya Angelou once articulated this idea perfectly:
+[Maya Angelou](https://en.wikipedia.org/wiki/Maya_Angelou) once articulated this idea perfectly:
 
 >> I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.
 
@@ -189,11 +189,17 @@ Those feelings can be vague sometimes, even hard to put words on. But what is cl
 
 ## How to evoke feelings?
 
-And so, as we reach the end of this article, the final question becomes: how can we use digital to evoke feelings?
+And so, as we reach the end of this article, the final issue becomes: how can we use digital to evoke feelings? This question inherently holds a lot of value. Enough to justify asking it over and over again, with each project and every brief.
 
-Fortunately, there is no simple answer to this question.
+Unsurprisingly perhaps, there is no simple answer. And of course, digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. However, there's many (mostly age-old) tricks to evoke feelings that can be intensified through digital:
 
-The question in itself may be deceptively simple, or obvious, but what is certain is that it inherently holds a lot of value. Enough to justify asking it over and over again, with each project and every brief.
+- Storytelling is the first one that comes to mind, and is perhaps the most powerful. Digital offers [many great ways](https://storytelling.design) to enhance a good story. Stories have evoked feelings and fascinated people for ages.
+- Through its possibility of using visuals in combination with audio and even smell and touch, digital allows for communication activating multiple senses simultaneously. This [has proven itself](https://wp.unil.ch/discoverunil/2016/11/using-multiple-senses-to-improve-memory/) to convey a message in a much more memorable way, as it easier engages people emotionally.
+- Digital allows for interaction, and interaction in itself can make a message stick much longer than a one-directional story. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
+- Sometimes a brand's promise is just to be super useful. Some of the most powerful brands of today have solved a consumer problem in a brilliant way. Smart digital technologies have the potential to help people save time and frustration in many ways that were impossible before. Solving a consumer problem in a simple way, directly brings delight.
+- ...
+
+Of course, it's a designer's job to find and freely mix those tools offering an experience that best expresses the personality of the brand at hand.
 
 ## Conclusion
 
