@@ -135,7 +135,9 @@ Is this a problem? From a branding perspective, you could say that yes, this is 
 
 ![Page from Where is Waldo]({{site.baseurl}}{{page.imgpath}}18-where-is-waldo.jpg)
 
-To identify someone, you need to be able to differentiate that person from the pack. And herein lies the problem with sameness: it rules out individuality and identification. If all brands look and behave the same, why would customers choose yours over the others?
+To identify someone, you need to be able to differentiate that person from the pack. And herein lies the problem with sameness: it rules out individuality and identification. If all brands look and behave the same ([basically turning into blands](https://www.basedesign.com/blog/blanding-or-the-branding-paradox)), why would customers choose yours over the others?
+
+![Tech blands overview]({{site.baseurl}}{{page.imgpath}}tech-blands.jpg)
 
 However, from a consumer perspective, you could say it’s not a problem at all that everything looks the same. Uniformity is convenient even. If you ever arrived in an international airport where you cannot interpret the written language, you will thank god for sameness:
 
