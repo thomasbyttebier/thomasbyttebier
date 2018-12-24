@@ -189,20 +189,21 @@ Those feelings can be vague sometimes, even hard to put words on. But what is cl
 
 ## How to evoke feelings?
 
-And so, as we reach the end of this article, the final issue becomes: how can we use digital to evoke feelings? This question inherently holds a lot of value. Enough to justify asking it over and over again, with each project and every brief.
+And so, as we reach the end of this article, the final question becomes: how can we use digital to evoke feelings?
 
-Unsurprisingly perhaps, there is no simple answer. And of course, digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. However, there's many (mostly age-old) tricks to evoke feelings that can be intensified through digital:
+Unsurprisingly perhaps, there is no simple answer. Digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. Nevertheless, there's many tricks to evoke feelings that can be *intensified* through digital. And however simple that may sound, or even disappointing perhaps, herein lies digital's biggest role in branding.
+
+What may surprise is that most of these tricks are age-old. Here's but a few of them:
 
 - Storytelling is the first one that comes to mind, and is perhaps the most powerful. Digital offers [many great ways](https://storytelling.design) to enhance a good story. Stories have evoked feelings and fascinated people for ages.
-- Through its possibility of using visuals in combination with audio and even smell and touch, digital allows for communication activating multiple senses simultaneously. This [has proven itself](https://wp.unil.ch/discoverunil/2016/11/using-multiple-senses-to-improve-memory/) to convey a message in a much more memorable way, as it easier engages people emotionally.
-- Digital allows for interaction, and interaction in itself can make a message stick much longer than a one-directional story. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
-- Sometimes a brand's promise is just to be super useful. Some of the most powerful brands of today have solved a consumer problem in a brilliant way. Smart digital technologies have the potential to help people save time and frustration in many ways that were impossible before. Solving a consumer problem in a simple way, directly brings delight.
-- ...
+- Digital allows to communicate in a way that activates multiple senses simultaneously: sight, hearing and even smell and touch. This [has proven itself](https://wp.unil.ch/discoverunil/2016/11/using-multiple-senses-to-improve-memory/) to convey a message in a much more memorable way, as it more easily engages people emotionally.
+- A pretense of participation can make a message stick much longer than a one-directional story. Interaction and participation is inherent to digital. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
+- Sometimes a brand's promise is just to be mere helpful. Some of the most powerful brands of today have solved a consumer problem in a brilliant way, directly bringing delight. And of course delight is a strong experience. Digital brings brands the potential to help people in many new ways.
 
-Of course, it's a designer's job to find and freely mix those tools offering an experience that best expresses the personality of the brand at hand.
+Of course this list goes on, but I'm sure by now you got the point: in the end it's all about using digital's richness to evoke the right brand experience in the best possible way.
 
 ## Conclusion
 
-As much as sameness in digital is real, it shouldn't be too much of a problem. Standardization of interfaces does bring clear consumer advantages. On top of that, digital has brought brands an extremely rich means of expression. This goes way beyond the interface. Brands should take full advantage of this by creating memorable digital experiences.
+As much as sameness in digital is real, it shouldn't be too much of a problem. Standardization of interfaces does bring clear consumer advantages. On top of that, digital has brought brands an extremely rich means of expression. This goes way beyond the interface. Brands should take full advantage of this by creating memorable digital experiences. A powerful way to reach memorability is by evoking feelings.
 
 (This article is an adapted and written version of a talk I gave together with [Thomas Léon](https://basedesign.com/people/thomas-leon/) for [Base](https://basedesign.com) at [Us By Night](http://www.usbynight.be) in Antwerp, Nov 23 2017.)
