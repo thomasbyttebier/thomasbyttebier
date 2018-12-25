@@ -193,16 +193,17 @@ Those feelings can be vague sometimes, even hard to put words on. But what is cl
 
 And so, as we reach the end of this article, the final question becomes: how can we use digital to evoke feelings?
 
-Unsurprisingly perhaps, there is no simple answer. Digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. Nevertheless, there's many tricks to evoke feelings that can be *intensified* through digital. And however simple that may sound, or even disappointing perhaps, herein lies digital's biggest role in branding.
+Unsurprisingly perhaps, there is no simple answer. Digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. Nevertheless, it can intensify one of the many pre-existing tricks and techniques. Some of these are literally age-old.
 
-What may surprise is that most of these tricks are age-old. Here's but a few of them:
+Storytelling is the first one that comes to mind, and is perhaps the most powerful. Digital offers [many great ways](https://storytelling.design) to enhance a good story. Stories have evoked feelings and fascinated people for ages.
 
-- Storytelling is the first one that comes to mind, and is perhaps the most powerful. Digital offers [many great ways](https://storytelling.design) to enhance a good story. Stories have evoked feelings and fascinated people for ages.
-- Digital allows to communicate in a way that activates multiple senses simultaneously: sight, hearing and even smell and touch. This [has proven itself](https://wp.unil.ch/discoverunil/2016/11/using-multiple-senses-to-improve-memory/) to convey a message in a much more memorable way, as it more easily engages people emotionally.
-- A pretense of participation can make a message stick much longer than a one-directional story. Interaction and participation is inherent to digital. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
-- Sometimes a brand's promise is just to be mere helpful. Some of the most powerful brands of today have solved a consumer problem in a brilliant way, directly bringing delight. And of course delight is a strong experience. Digital brings brands the potential to help people in many new ways.
+Another interesting way is to communicate while speaking to multiple senses simultaneously. This [has proven itself](https://wp.unil.ch/discoverunil/2016/11/using-multiple-senses-to-improve-memory/) to convey a message in a much more memorable way, as it helps to engage people emotionally. Digital technologies can activate sight, hearing, and even smell and touch at the same time.
 
-Of course this list goes on, but I'm sure by now you got the point: in the end it's all about using digital's richness to evoke the right brand experience in the best possible way.
+A third technique involves participation. Participation can make a message stick much longer than a one-directional story. Interaction is a degree of participation, and is inherent to digital. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
+
+As a final example, let's consider how some of the most powerful brands of today have solved a consumer problem in a brilliant way, directly bringing delight. Delight is of course a powerful emotion, and digital brings brands a potential to help people in many new ways.
+
+Of course this list is not exhaustive, but that's not the point. In the end it's all about taking advantage of digital's richness to evoke the right brand experience. This will always involve understanding what the brand's audiences want, and delivering on it in a unique way.
 
 ## Conclusion
 
