@@ -193,7 +193,7 @@ Those feelings can be vague sometimes, even hard to put words on. But what is cl
 
 And so, as we reach the end of this article, the final question becomes: how can we use digital to evoke feelings?
 
-Unsurprisingly perhaps, there is no simple answer. Digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. Nevertheless, it can intensify one of the many pre-existing tricks and techniques. Some of these are literally age-old.
+Unsurprisingly perhaps, there is no simple answer. Digital as a medium hasn't revealed some kind of magic one-size-fits-all formula. Nevertheless, it can intensify one of the many pre-existing tricks and techniques, some of which are literally age-old.
 
 Storytelling is the first one that comes to mind, and is perhaps the most powerful. Digital offers [many great ways](https://storytelling.design) to enhance a good story. Stories have evoked feelings and fascinated people for ages.
 
@@ -201,9 +201,11 @@ Another interesting way is to communicate while speaking to multiple senses simu
 
 A third technique involves participation. Participation can make a message stick much longer than a one-directional story. Interaction is a degree of participation, and is inherent to digital. Whether it's a simple tap-to-reveal or a smart conversation with a bot, clever interaction grows emotional engagement.
 
-As a final example, let's consider how some of the most powerful brands of today have solved a consumer problem in a brilliant way, directly bringing delight. Delight is of course a powerful emotion, and digital brings brands a potential to help people in many new ways.
+As a final example, let's consider how some of the most powerful brands of today have solved a consumer problem in a brilliant way, directly bringing delight. Delight is of course a powerful emotion. Digital brings brands the potential to help people in many new ways, delivering delight.
 
-Of course this list is not exhaustive, but that's not the point. In the end it's all about taking advantage of digital's richness to evoke the right brand experience. This will always involve understanding what the brand's audiences want, and delivering on it in a unique way.
+Of course this list is not exhaustive, but that's not the point. In the end it's all about taking advantage of digital's richness to help evoke the right brand experience. This will always involve understanding what the brand's audiences want, and delivering on it in a unique way.
+
+And so it seems, there is no new thing under the sun.
 
 ## Conclusion
 
