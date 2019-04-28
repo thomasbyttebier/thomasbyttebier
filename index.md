@@ -1,6 +1,8 @@
 ---
 layout: default
-redirect_from: "/about/"
+redirect_from:
+  - /about/
+  - /portfolio/
 no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
 ---
 
