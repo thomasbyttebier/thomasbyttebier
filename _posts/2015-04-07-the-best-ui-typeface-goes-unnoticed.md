@@ -4,7 +4,7 @@ permalink: /blog/:title
 title: The best UI typeface goes unnoticed
 date: 2015-04-07
 imgpath: /assets/images/2015-04-07/
-featured: true
+featured: false
 excerpt: Clarity is the most important value of a well-designed user interface. Last time I blogged about pictograms. Let’s talk type today. Because even more than icons, a typeface can make or break clarity.
 ---
 Clarity is the most important value of a well-designed user interface. Last time I [blogged about pictograms](http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label). Let’s talk type today. Because even more than icons, a typeface can make or break [clarity](http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface).

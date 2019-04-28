@@ -4,15 +4,11 @@ redirect_from: "/about/"
 no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
 ---
 
-I am a freelance digital designer shaping, teaching and coding the web for almost two decades now. I want digital products to be delightful to use. I believe good design is inclusive, and reduces to the essence.
-
-I design web sites and digital products. I research, talk to users, sketch flows and interactions. I prototype and test them. I simplify. I write accessible and semantic HTML and CSS.
-
-I am currently Digital Director at [Base Design](https://basedesign.com). We work for institutions and brands such as Delvaux, Art &amp; History Museum, Haus der Kunst, MoMu, Musée Yves Saint Laurent, Fondation Cartier pour l'art contemporain and PSLab.
+I am a freelance digital designer, currently working full-time as Digital Director at [Base Design](https://basedesign.com) in Brussels. We do branding for clients as Axel Vervoordt, Delvaux, Art &amp; History Museum, Haus der Kunst, MoMu, Musée Yves Saint Laurent and Fondation Cartier.
 
 I am also lector digital design at [Luca School of Arts](http://www.luca-arts.be) in Ghent.
 
-If you want to know more about me, here's a few key articles on [my blog]({{ site.baseurl }}/blog) that should give you an overall idea of my thoughts on digital and design:
+If you want to learn more, here's a few key articles on [my blog]({{ site.baseurl }}/blog) that should give you an overall idea of my thoughts on branding, digital and design:
 
 {% include featured-posts.html %}
 

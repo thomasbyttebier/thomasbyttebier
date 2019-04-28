@@ -5,7 +5,7 @@ date:   2019-01-17
 imgpath: /assets/images/2019-01-17/
 metaimage: 01-sameness-interfaces-small.jpg
 permalink: /blog/:title
-featured: false
+featured: true
 excerpt: As much as sameness in digital is real, it shouldn't be too much of a problem. Standardization of interfaces does bring clear consumer advantages. On top of that, digital has brought brands an extremely rich means of expression. This goes way beyond the interface. Brands should take full advantage of this by creating memorable digital experiences. A powerful way to reach memorability is by evoking feelings.
 ---
 In his article titled [UX global trends might be narrowing our minds](https://medium.com/@alemasferrer/ux-global-trends-might-be-narrowing-our-minds-10aebb99de4f), author [Alejandro Masferrer](http://www.alejandromasferrer.com) writes that especially in digital, everything is  starting to look the same. Every interface looks similar.
