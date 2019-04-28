@@ -1,4 +1,4 @@
-{% assign featured-posts = site.posts | where: "featured", "true" | reverse %}
+{% assign featured-posts = site.posts | where: "featured", "true" %}
 {% for item in featured-posts %}
   {% if forloop.first %}<ul class="c-list">{% endif %}
     <li class="c-list__item">
