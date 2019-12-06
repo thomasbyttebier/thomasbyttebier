@@ -1,0 +1,106 @@
+I"�,<p>Clarity is the most important value of a well-designed user interface. Last time I <a href="http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label">blogged about pictograms</a>. Let’s talk type today. Because even more than icons, a typeface can make or break <a href="http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface">clarity</a>.</p>
+
+<p>On the surface, most of an app’s UI is exactly the type it’s set in. That’s why it matters so much. As good as any app can serve as an example, but let’s start with Weather for iOS: apart from the decorative clouds and inevitable icons, its UI is essentially pure text:</p>
+
+<p><img src="/assets/images/2015-04-07/weather-ios.jpg" alt="iOS Weather app" /></p>
+
+<p>Tumblr’s back-end user interface is almost entirely made up of text and icons:</p>
+
+<p><img src="/assets/images/2015-04-07/tumblr.jpg" alt="Tumblr back-end user interface" /></p>
+
+<p>The same goes for desktop software like Sketch:</p>
+
+<p><img src="/assets/images/2015-04-07/sketch.png" alt="Bohemian Sketch interface" /></p>
+
+<p>Back in 2006, <a href="http://ia.net">iA</a> wrote an enlightening blog post on that matter, called <a href="https://ia.net/know-how/the-web-is-all-about-typography-period">Web Design is 95% Typography</a>. Here’s a remarkable quote:</p>
+
+<blockquote>
+  <p>A great designer knows how to work with text not just as content, he treats text as a user interface.</p>
+</blockquote>
+
+<p>Text is UI. And of course typography is so much more than just a typeface or the text in an app. It’s about balance, positioning, hierarchy and structure. The screenshots of Weather clearly demonstrate that. Still, your typeface choice is a very big deal.</p>
+
+<p>So, if we go back to the raw letterforms, what exactly are we looking for in a good UI typeface? What makes it a good fit for a user interface? <a href="http://www.frerejones.com">Tobias Frere-Jones</a>, renowned American type designer (of <a href="http://www.typography.com/fonts/gotham/overview/">Gotham</a> among others) once said:</p>
+
+<blockquote>
+  <p>All text needs legible typefaces. But especially at interfaces, our eyes need fonts that cooperate rather than resist.</p>
+</blockquote>
+
+<p>That makes a lot of sense, knowing that clarity is a good UI’s foremost characteristic. Frere-Jones’ quote underlines the idea that above all we need a clear typeface. As an interface is mostly type, we need to make absolutely sure the font doesn’t introduce friction between the product and the user.</p>
+
+<p>Have a look at these two typefaces:</p>
+
+<p><img alt="Roboto vs Clarendon as UI fonts" src="/assets/images/2015-04-07/roboto-clarendon.png" srcset="/assets/images/2015-04-07/roboto-clarendon@2x.png 2x" /></p>
+
+<p>Clarendon is beautiful. But in all its shiny glory, it screams for attention and may therefor distract our users from tasks and goals. In user interfaces, we want the typeface to go unnoticed and the user to get things done.  Roboto may look a bit impersonal, even boring at first sight, it is by far a better choice.</p>
+
+<p>Additionally, a good UI typeface has to be extremely clear in small sizes. Check the home screen on your smartphone. You’ll see text easily gets tiny in software. Also, have a look at iOS Calendar:</p>
+
+<p><img src="/assets/images/2015-04-07/ios-calendar-2.png" alt="calendar app on iOS ipad" /></p>
+
+<p>Microscopic! Here’s Nextgen Reader on a Windows phone. (I know the scale isn’t very representative in these images, but it should give you an idea.)</p>
+
+<p><img src="/assets/images/2015-04-07/nextgen-reader-windows.png" alt="nextgen reader on a nokia windows phone" /></p>
+
+<p>As text gets really tiny, you’ll probably want to look for a font with <a href="http://en.wikipedia.org/wiki/X-height">a large x-height</a>. There’s only a few pixels of available space to draw a glyph, so a larger x-height takes full advantage of them.</p>
+
+<p>That being said, now half close your eyes. Which of these two small text buttons is more readable?</p>
+
+<p><img alt="Lucida Grande vs Helvetica as UI typefaces" src="/assets/images/2015-04-07/lucida-helvetica-2.png" srcset="/assets/images/2015-04-07/lucida-helvetica-2@2x.png 2x" /></p>
+
+<p>If you didn’t before, you now understand all the fuzz about Helvetica as an interface font. When Apple released Yosemite, the design community commented sharply on the switch from Lucida Grande to Helvetica. It just isn’t very legible, especially at small font sizes on low-res screens. It breaks <a href="http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface">clarity</a>.</p>
+
+<p>Have a look at this screenshot. Ugh! What’s going on there?</p>
+
+<p><img src="/assets/images/2015-04-07/os-x-settings.png" alt="OS X Yosemite switched to Helvetica as an interface font" /></p>
+
+<p>German typographer <a href="http://www.spiekermann.com">Erik Spiekermann</a> (of <a href="https://www.fontshop.com/families/ff-meta">Meta</a> and <a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/">Fira</a> among many others) boldly <a href="http://spiekermann.com/en/helvetica-sucks/">said this</a> on his blog:</p>
+
+<blockquote>
+  <p>Helvetica sucks. It really wasn’t designed for small sizes on screens. Words like ‘milliliter’ can be very difficult to decipher.</p>
+</blockquote>
+
+<p>Let’s see. Half close your eyes again and experience it for yourself.</p>
+
+<p><img alt="Helvetica is hard to decipher" src="/assets/images/2015-04-07/milliliter.png" srcset="/assets/images/2015-04-07/milliliter@2x.png 2x" /></p>
+
+<p>No need to argue, Helvetica is not the most legible. However it’s remarkable how well Ubuntu performs in the above screenshot. Especially an interface typeface has to provide enough distinction between its various glyphs. Think about passwords, user names, data tables, drop down lists… Your interface must display them in an unambiguous way. You don’t want your users to pause for even a fraction of a second to decipher glyphs and shapes.</p>
+
+<p>Gill Sans is perfect to illustrate that as well. It’s a great typeface, but it’s simply not suited for UI design. The first (1), third (capital i) and last (lower case L) character look exactly the same!</p>
+
+<p><img alt="Gill Sans falls short as a UI typeface" src="/assets/images/2015-04-07/gill-sans.png" srcset="/assets/images/2015-04-07/gill-sans@2x.png 2x" /></p>
+
+<p>Helvetica suffers the same unclarity. Erik Spiekermann once made a <a href="https://twitter.com/espiekermann/status/579240818206236672">visual comparison between DB Sans and Helvetica</a> that exemplifies this. Let me do the same with Helvetica and Fira Sans. Half-close your eyes. You’ll likely see how these glyph pairs set in Neue Helvetica get mixed up very easily. Confusing vs legible:</p>
+
+<p><img alt="Helvetica vs Fira as UI typefaces" src="/assets/images/2015-04-07/helvetica-fira.png" srcset="/assets/images/2015-04-07/helvetica-fira@2x.png 2x" /></p>
+
+<p>Now that we know what to look out for, the remaining question is of course: what then is a clear UI font? Let me show you a handful of excellent, albeit obvious choices. It’s sans-serif fonts that were designed specifically for use in interfaces. Well-hinted for small font-sizes and low screen resolutions.</p>
+
+<p>First there’s <a href="http://lucidafonts.com/fonts/family/lucida-grande">Lucida Grande</a> of course. Designed by Charles Bigelow and Kris Holmes, it has been used throughout the Mac OS X user interface from 1999 to 2014. It was <a href="http://blog.justanotherfoundry.com/2013/10/lucida-grande-retina-optimized-in-os-x-mavericks/">retina optimized in 2013</a>. It’s almost identical to Lucida Sans, but some glyphs were adapted to look clearer in small font sizes on screens. You know why.</p>
+
+<p><img alt="Lucida Grande" src="/assets/images/2015-04-07/lucida-grande.png" srcset="/assets/images/2015-04-07/lucida-grande@2x.png 2x" /></p>
+
+<p>Although the difference between a capital i and a lower case L may get harder to distinguish at small font sizes, it still works.</p>
+
+<p><img alt="Similar glyphs Lucida Grande at small font sizes" src="/assets/images/2015-04-07/illustrous.png" srcset="/assets/images/2015-04-07/illustrous@2x.png 2x" /></p>
+
+<p><a href="http://www.microsoft.com/typography/fonts/family.aspx?FID=1">Verdana</a>, like Georgia, was designed by Matthew Carter for Microsoft, and released in 1996. It was hand-hinted until it became very legible at small sizes on computer screens. Special care was given to emphasize distinctions between similarly-shaped characters. Again, you know why.</p>
+
+<p><img alt="Verdana" src="/assets/images/2015-04-07/verdana.png" srcset="/assets/images/2015-04-07/verdana@2x.png 2x" /></p>
+
+<p><a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/">Fira Sans</a> is the Firefox OS typeface. It was designed by <a href="http://spiekermann.com">Erik Spiekermann</a> and <a href="http://www.carrois.com">Ralph Du Carrois</a> for Mozilla and released in 2013 in 4 weights. It received a huge update in 2014. Fira is closely related to Spiekermann’s Meta which is used as the brand typeface of the Mozilla Foundation. It looks great on the web.</p>
+
+<p><img alt="Fira Sans" src="/assets/images/2015-04-07/fira-sans.png" srcset="/assets/images/2015-04-07/fira-sans@2x.png 2x" /></p>
+
+<p><a href="http://www.google.com/design/spec/style/typography.html">Roboto</a> was designed by <a href="http://betatype.com">Christian Robertson</a> for Google. It has replaced Droid as the Android system font in 2011. Roboto was <a href="http://typographica.org/on-typography/roboto-typeface-is-a-four-headed-frankenstein/">subject for debate</a> when it was initially released, but has since been refined extensively correcting many earlier ‘mistakes’. Roboto has been “created specifically for the requirements of UI and high-resolution screens”.</p>
+
+<p><img alt="Roboto" src="/assets/images/2015-04-07/roboto.png" srcset="/assets/images/2015-04-07/roboto@2x.png 2x" /></p>
+
+<p><a href="http://font.ubuntu.com">Ubuntu</a> was designed by <a href="https://daltonmaag.com">Dalton Maag</a> and released in 2010 as the default typeface of Ubuntu OS. Ubuntu was developed primarily for use on screen displays. It probably has the most distinctive look of all faces mentioned here. That can or cannot be a good thing in the case of your app.</p>
+
+<p><img alt="Ubuntu" src="/assets/images/2015-04-07/ubuntu.png" srcset="/assets/images/2015-04-07/ubuntu@2x.png 2x" /></p>
+
+<p>Other notable mentions include <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a>, introduced in Windows Vista and later refined. San Francisco, the system typeface for the upcoming Apple Watch and definitely one to watch out for. <a href="http://www.google.com/fonts/specimen/Droid+Sans">Droid Sans</a> and <a href="https://www.google.com/fonts/specimen/Open+Sans">Open Sans</a>, <a href="https://www.fontshop.com/families/aller">Aller Sans</a>, <a href="https://typekit.com/fonts/source-sans-pro">Source Sans Pro</a>, <a href="https://www.fontshop.com/families/azuro">Azuro</a>, <a href="http://www.paratype.com/public/">PT Sans</a>…</p>
+
+<p>All these typefaces definitely don’t burst with personality or creativity, yet they’re crammed with clarity. And in user interface design, that’s only a good thing. As most of our app’s UI is the type it’s set in. We’d better take good care of it.</p>
+:ET

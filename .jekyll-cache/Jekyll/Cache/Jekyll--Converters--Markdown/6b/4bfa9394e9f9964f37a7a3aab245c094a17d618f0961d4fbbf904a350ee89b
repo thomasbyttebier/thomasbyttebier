@@ -1,0 +1,42 @@
+I"�<p>Previously I wrote about <a href="https://thomasbyttebier.be/blog/mood-boards-in-a-content-first-design-process">the importance of mood boards in our digital design process</a>. As you may recall from that post, we do them because they speed up our project tremendously. Additionally, mood boards help us receiving the right kind of client feedback at the right time in the process.</p>
+
+<p>The main goal of a mood board is to experiment though, and ultimately define the visual vocabulary of the brand we work for. As an example, here’s a small part of a mood board we did at <a href="https://basedesign.com">Base</a> months ago, for Belgian brand <a href="http://vervloet.com">Maison Vervloet</a>:</p>
+
+<p><img src="/assets/images/2017-08-17/mood-board-vervloet.jpg" alt="Detail of a mood board for Maison Vervloet by Base" /></p>
+
+<p>As you can see from the image above, the mood board is fully static. It’s basically a Sketch file. To present it to our clients we just export it to a jpg or png. It’s the way we did it for quite a while, and it worked great.</p>
+
+<p>More recently however, we started adding motion and simple interaction design to the visual mix. It started as simple as drawing a button hover state, then actually representing it in the mood board as an interactive thing.</p>
+
+<p>We figured a small video loop is enough to communicate the idea, as you can see in this detail from the mood board we created for Brussels brand <a href="http://maisondandoy.com">Maison Dandoy</a>:</p>
+
+<p><img src="/assets/images/2017-08-17/dandoy-hover.gif" alt="Simple button hover state, represented as such" /></p>
+
+<p>Nothing ground-breaking there, but of course this means we don’t fully design the mood board in Sketch anymore. Interaction and motion are prototyped in tools like <a href="http://principleformac.com">Principle</a> or <a href="https://framer.com">Framer</a>, or directly in code. It really doesn’t matter how it’s done, as long as it’s quick and conveys the mood.</p>
+
+<p>When we are done designing, we create an HTML page. This page will be the actual mood board we present to our client. It features dozens of pngs exported from Sketch, alongside video screen captures of the interactive prototypes.</p>
+
+<p>Of course the advantage to presenting the mood board as an HTML page, is that we can sneak in bits of CSS and JavaScript if we want to. Here’s an example where we added a playful animation on scroll to the otherwise static Maison Dandoy logo. We used simple JavaScript for that:</p>
+
+<p><img src="/assets/images/2017-08-17/dandoy-logo-turning.gif" alt="Scrolling through the mood board animates the Maison Dandoy logo. Fun!" /></p>
+
+<p>As a mood board makes no commitment to the end result and takes place very early in the design process, there’s still plenty of room for experimentation.</p>
+
+<p>Here’s an over-the-top hover effect we sneaked in that could show Dandoy website visitors what a <em>biscotte sucrée</em> is. It definitely made for an interesting discussion when we presented it to the client:</p>
+
+<p><img src="/assets/images/2017-08-17/hover-biscotte.gif" alt="Dandoy playful hover effect" /></p>
+
+<p>In order to move quickly, we don’t focus on production code or getting the output perfect on all devices and browsers. That’s irrelevant as the mood board is a document that is only shared with our client and the team.</p>
+
+<p><img src="/assets/images/2017-08-17/dandoy-moving-images.gif" alt="Playful animation will be key to Maison Dandoy's new website" /></p>
+
+<h2 id="how-did-we-end-uphere">How did we end up here?</h2>
+
+<p>The first reason we wanted to experiment with motion directly in the mood board phase is very simple. Especially in digital, it’s as much part of a brand’s visual identity as the typeface selection or color scheme. Delaying motion and interaction design to a later phase consequently somehow reduced it to an after-thought.</p>
+
+<p>The second reason is probably a direct result of that: we noticed a particular flatness in the interaction we designed. Our work was too static. While graphically great, we lacked that certain interactive finesse that comes with carefully crafted digital design.</p>
+
+<p>Now we hope that by treating it as a first-class citizen from day one, it will shine through in our final results.</p>
+
+<p>If you like the idea of <a href="https://thomasbyttebier.be/blog/the-bold-beauty-of-content-prototypes">designing web sites content-first</a>, go ahead and give motion mood boarding a try. I’d love to hear your thoughts.</p>
+:ET

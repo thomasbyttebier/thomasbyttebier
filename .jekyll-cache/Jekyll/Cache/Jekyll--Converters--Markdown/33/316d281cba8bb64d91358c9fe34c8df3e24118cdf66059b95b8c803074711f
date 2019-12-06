@@ -1,0 +1,82 @@
+I"H<p><a href="/blog/a-clear-interface-is-a-better-interface">Previously</a> I wrote about clarity being the most important characteristic of a great interface. Let’s talk about icons now. They’re an essential part of many user interfaces. The thing is: more often than not, they break clarity.</p>
+
+<p>Pictograms have been in use since the early days of mankind. They are often seen as the first expressions of a written language. Some non-literate cultures still use them today as their main medium of written communication.</p>
+
+<p><img src="/assets/images/2015-03-23/ojibwa-agawa-rock-robertson.jpg" alt="ojibwa pictograms in agawa rock, photo by Robertson" /></p>
+
+<p>In many public spaces, they’re used for wayfinding. Especially in a multi-cultural environment like an airport, traditional written language would not suffice.</p>
+
+<p><img src="/assets/images/2015-03-23/bejing-airport-chinnian.jpg" alt="bejing airport way finding by chinnian" /></p>
+
+<p>Icons soon became popular in user interface design too. Have a look at this shot of the first commercial graphical user interface on a desktop computer (the Xerox Star). Designer David Smith invented the concept of icons and the desktop metaphor:</p>
+
+<p><img src="/assets/images/2015-03-23/xerox-star.jpg" alt="First commercial GUI: the Xerox Star in the 70s" /></p>
+
+<p>Of course I can see why icons grew popular in user interfaces. Firstly, they make the UI more graphically pleasing. And when done right, they can certainly give your app visual personality. That’s two good things.</p>
+
+<p>Moreover, an icon can often replace a long descriptive group of words. As screens get smaller, this is much welcomed. But herein lies the design trap, because most icons are unclear. <a href="http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface">They make people think.</a> What good has a beautiful interface if it’s unclear? Hence it’s simple: only use an icon if its message is a 100% clear to everyone. Never give in.</p>
+
+<p>(Unclear icons remind me of this funny graphic <a href="https://twitter.com/TechnicallyRon/status/570965607971209216">Ron</a> posted on Twitter recently. I guess someone got frustrated by all these unreadable washing icons…)</p>
+
+<p><img src="/assets/images/2015-03-23/washing-icons.png" alt="Washing icon hell" /></p>
+
+<p>Discussing the use of icons with clients, the remark I hear often goes like this: “People will use our software daily, they’ll soon learn the meaning of our icons.” Makes sense, but I’m not sure that’s entirely correct. I use Apple mail several times a day, yet still feel uncertain which icon to click when composing a new message:</p>
+
+<p><img src="/assets/images/2015-03-23/apple-mail.jpg" alt="Apple Mail icons" /></p>
+
+<p>And I have more bad news: users will avoid interface elements they cannot understand. It’s in our nature to distrust the unknown. When Google decided to hide other apps behind an unclear icon in the Gmail UI, they <a href="http://99designs.com/designer-blog/2014/01/15/7-unbreakable-laws-of-user-interface-design/">apparently</a> got a stream of support requests, like “Where is my Google Calendar?”</p>
+
+<p><img src="/assets/images/2015-03-23/gmail.jpg" alt="Gmail interface" /></p>
+
+<p>Another example: after a redesign, new Twitter users plausibly didn’t understand what they were supposed to do. The icon simply <a href="http://99designs.com/designer-blog/2014/01/15/7-unbreakable-laws-of-user-interface-design/">wasn’t clear enough</a>:</p>
+
+<p><img src="/assets/images/2015-03-23/twitter-new-tweet.jpg" alt="New tweet icon on Twitter" /></p>
+
+<p>A later version made tweeting much more obvious:</p>
+
+<p><img src="/assets/images/2015-03-23/twitter-better.png" alt="New tweet is much more clear now" /></p>
+
+<p>Did you know you can send a direct private photo message to an Instagram friend? It’s behind this pictogram:</p>
+
+<p><img src="/assets/images/2015-03-23/instagram-pm.jpg" alt="Instagram private photo" /></p>
+
+<p>Hmmm… as an Instagram user, chances are you’ve seen it before, but have you ever used it? It’s unclear. What does it mean?</p>
+
+<p>Of course context is important too when using icons. Some crystal clear pictograms get ambiguous in a different context. Watch out for that. Upon opening a Gmail email conversation, you get to see this. See how those two icons are very similar, but have a different meaning?</p>
+
+<p><img src="/assets/images/2015-03-23/gmail-double.png" alt="Gmail ambiguous icons" /></p>
+
+<p>I’ve sure arrived in my inbox more than once when all I wanted to do was reply to an email. Context matters.</p>
+
+<p>Tweetbot’s icons may look unclear to some of us, they are clear in the context of Twitter. Tweetbot users are Twitter users, they will recognize these so it seems okay to me to use them here:</p>
+
+<p><img src="/assets/images/2015-03-23/tweetbot-icons.png" alt="Tweetbot's icons are clear in the context of Twitter" /></p>
+
+<p>The same can be said about the Tumblr iOS app. Some of these icons may look weird to most of us, they’re pretty clear in the context of Tumblr. Its users will recognize these.</p>
+
+<p><img src="/assets/images/2015-03-23/tumblr-ios.jpg" alt="Tumblr iOS app icons" /></p>
+
+<p>The Rdio Mac app looks like this:</p>
+
+<p><img src="/assets/images/2015-03-23/rdio-ui.jpg" alt="Rdio music player UI" /></p>
+
+<p>Most of the icons in use here are clear in the context of a music player. (A weird thing though is that one icon has 2 meanings: the volume and the currently played song.)</p>
+
+<p>So let me repeat: don’t use an icon if its meaning isn’t a 100% clear to everyone. When in doubt, skip the icon. Reside to simple copy. A text label is always clearer.</p>
+
+<p>If you want to keep the graphical advantages of icons, you can of course combine the icon with copy. It’s an excellent solution that unites the best of both worlds.</p>
+
+<p>The Mac App Store is doing exactly this. It’s almost mandatory here, because the icons themselves would be totally unclear:</p>
+
+<p><img src="/assets/images/2015-03-23/app-store.jpg" alt="Mac App store icons" /></p>
+
+<p>It’s also what Twitter is doing in their web interface:</p>
+
+<p><img src="/assets/images/2015-03-23/twitter-icons.png" alt="Twitter web app icons" /></p>
+
+<p>Let’s look at Facebook as a final example: they lately traded their <a href="http://exisweb.net/menu-eats-hamburger">unclear hamburger menu icon</a> for a frictionless navigation that combines icons with clear copy. Well done:</p>
+
+<p><img src="/assets/images/2015-03-23/facebook-hamburger.png" alt="Facebook ate the Hamburger to clear up their navigation" /></p>
+
+<p>I hope all of this made clear that icons can easily break the <a href="http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface">most important characteristic of a good user interface: clarity</a>. So be very careful, and test! And when in doubt, always remember this: the best icon is a text label.</p>
+:ET

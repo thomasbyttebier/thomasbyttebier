@@ -1,0 +1,64 @@
+I"<p>I’ve <a href="http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface">said it before</a>: clarity is the most important value of good user interface design. Earlier <a href="http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label">I blogged about icons</a> and <a href="http://thomasbyttebier.be/blog/the-best-ui-typeface-goes-unnoticed">discussed UI typography</a>. Today I’ll cover copy. Because not only the face of text in apps matters, semantics obviously do too. What good is a highly legible typeface if the text it sets conveys an unclear message?</p>
+
+<p>In <a href="https://gettingreal.37signals.com">Getting Real</a>, <a href="http://37signals.com">37signals</a> wrote:</p>
+
+<blockquote>
+  <p>If you think every pixel, every icon, every typeface matters, then you also need to believe every letter matters.</p>
+</blockquote>
+
+<p>So true. Alas, copywriting is an often overlooked aspect of UI design. That’s a serious shortcoming, because if you come to think of it: most of an app’s user interface simply is text. Hide the icons, imagery or colors and every app or web site is basically just letters and numbers. There may be some data in there, a significant part of it is UI. It would be stupid not to take excellent care of it.</p>
+
+<p>Check Photoshop’s Image Size dialog box for example. It’s mostly text. Consequently, as a user, you need to figure out how it works chiefly by reading text:</p>
+
+<p><img src="/assets/images/2015-06-09/photoshop.png" alt="Text as UI: Photoshop’s Image size dialog box is essentially just text" /></p>
+
+<p>Bad copy introduces friction. Always. Users will pause and try to figure out what your writing means. That’s a bad thing, knowing that even the tiniest distraction may lead a user astray of the task at hand. On the contrary, good copy will help users fast-forward in reaching their goals.</p>
+
+<p>Concise, clear copy will raise the clarity of any user interface. I can’t stress the importance of it enough. Have a look at the Nike+ iPhone app as an example. Check that button, it says <em>Begin run</em>. That’s what I call clear copy.</p>
+
+<p><img src="/assets/images/2015-06-09/nike-btn.png" alt="Nike Plus iOS app" /></p>
+
+<p>Many of us would probably have gone for <em>Start</em> as the button’s label. But while <em>Start</em> could leave room for thought, <em>Begin run</em> is very clear. No user will doubt what that button is for.</p>
+
+<p><a href="http://twitter.com">Twitter</a> invites tweeting with a label that reads <em>What’s happening?</em>. Smart move. They could have gone for <em>Write a new tweet</em> but that could scare off new users (what is a tweet?) and is by far less inviting, even to experienced users.</p>
+
+<p><a href="/assets/images/2015-06-09/twitter.png">Twitter’s What’s happing?</a></p>
+
+<p>I love <a href="http://airbnb.com">Airbnb</a> and have had excellent experiences with its service, yet I struggle to log in to their website every single time. The reason? Bad copy:</p>
+
+<p><img src="/assets/images/2015-06-09/airbnb.jpg" alt="Airbnb and bad Dutch copy" /></p>
+
+<p>The labels for <em>Sign up</em> and <em>Log in</em> may be clear in English, they are translated into <em>Aanmelden</em> and <em>Inloggen</em> in Dutch. While there’s technically a difference in meaning, it’s two completely interchangeable words to most native speakers.</p>
+
+<p><a href="http://bokardo.com/archives/writing-microcopy/">Joshua Porter</a> once said that “The fastest way to improve your user interface it to improve the copywriting.” In the case of Airbnb’s home page, that’s most definitely true. I don’t need an icon, rounded corners, the golden ratio or a better color scheme here. Simple unambiguous writing will do.</p>
+
+<p>A bit deeper in the app, Airbnb is doing much better. The search field in the header has the descriptive label: <em>Where are you going?</em> It’s inviting and leaves less room for thought than <em>Search</em> would do. It’s clear what it’s meant for and above all: it’s clear what it’s not meant for. You wouldn’t look up a friend’s profile through that input field, would you?</p>
+
+<p><img src="/assets/images/2015-06-09/airbnb-where.png" alt="Good copy at Airbnb.com" /></p>
+
+<p>Sadly, the web is full of ambiguous copywriting. Some time ago <a href="http://twitter.com/dotmariusz">Mariusz Ciesla</a> made me chuckle as he shared <a href="https://twitter.com/dotmariusz/status/593174898333323264">this comment on a screenshot on Twitter</a>:</p>
+
+<blockquote>
+  <p>This dropdown menu is the prime example why copywriting is interface design.</p>
+</blockquote>
+
+<p><img src="/assets/images/2015-06-09/dropdown.png" alt="Oh boy! Meal preference dropdown" /></p>
+
+<p>And we’ve all seen dialog boxes that look like this one from an old <a href="http://skype.com">Skype</a> version. It’s embarrassing and will leave users frustrated.</p>
+
+<p><img src="/assets/images/2015-06-09/skype.png" alt="Skype unanswerable modal window" /></p>
+
+<p>Enough on the bad, let’s focus on the good again. Great copy has the right tone of voice too. Just as much as consistency in visual style, consistency in tone will help designers create a more uniform and better user experience. In some cases, it makes a huge difference. Take <a href="http://metalab.co/projects/slack/">Slack</a> for example: in a crowded and saturated market they’re crushing all competition. Why? Part of their success is clever copywriting. <a href="https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908">It sounds consistently different.</a></p>
+
+<p>Here’s two messages Slack once showed while data was loading.</p>
+
+<p><img src="/assets/images/2015-06-09/slack-loading.png" alt="Slack loading messages sound different" /></p>
+
+<p>Both messages clearly manifest a different voice compared to what most apps display when digging up data. It may seem a bit off at first, yet it’s part of a greater consistency in copy throughout the app. One that feels totally right. Slack’s not just a face in the corporate crowd.</p>
+
+<p><a href="http://mailchimp.com">MailChimp</a> acknowledges the importance of a consistency in voice too. They’ve even created <a href="http://voiceandtone.com">a comprehensive guide</a> that helps anyone who writes for MailChimp to find the right voice and tone.</p>
+
+<p>As designers, I feel it’s our job to come up with good copy. Or at least provide copywriters the right clue. Writing is an essential part of design. Just as much as bad copy can ruin a good design, the right words can enforce it.</p>
+
+<p>Most of us have grown used to discussing design with the developers on the team. We’ve seen it lead to better products. Nonetheless, copywriters and translators mostly reside in a galaxy far away. That’s no good. We should discuss design together, as we aim for the same objective anyway. We really should.</p>
+:ET
