@@ -20,13 +20,13 @@ Before we started, we looked at the digital tools that museums and galleries wer
 
 ## The state of digital visitor tools in museums
 
-Several museums have experimented with VR and AR tours. The [Kremer Museum](https://www.thekremercollection.com/the-kremer-museum/) is arguably the most extreme example as it only exists in virtual reality. In 2017, [Tate Modern](https://www.tate.org.uk/) very interestingly [recreated the Parisian studio of Modigliani in VR](https://www.tate.org.uk/press/press-releases/virtual-reality-brings-modiglianis-final-studio-life). The [National Museum of Finland](http://www.kansallismuseo.fi/) came up with another take in 2018, allowing visitors to [walk inside R. W. Ekman’s painting, “The Opening of the Diet 1863 by Alexander II”](https://www.vrfocus.com/2018/02/national-museum-of-finland-offers-virtual-time-travel/).
+Several museums have experimented with VR and AR tours. The [Kremer Museum](https://www.thekremercollection.com/the-kremer-museum/) is arguably the most extreme example as it only exists in virtual reality. In 2017, [Tate Modern](https://www.tate.org.uk/) very interestingly [recreated the Parisian studio of Modigliani in VR](https://www.tate.org.uk/press/press-releases/virtual-reality-brings-modiglianis-final-studio-life). The [National Museum of Finland](http://www.kansallismuseo.fi/) came up with another take in 2018, allowing visitors to [walk inside R. W. Ekman’s painting, “The Opening of the Diet 1863 by Alexander II”](https://www.vrfocus.com/2018/02/national-museum-of-finland-offers-virtual-time-travel/) (image below).
 
 ![Walking inside R.W. Ekman’s painting, “The Opening of the Diet 1863 by Alexander II” (Image: National Museum of Finland)]({{site.baseurl}}{{page.imgpath}}finland-museum-vr.jpg)
 
 VR is fascinating, but costly to produce and it requires visitors to use additional hardware. Impossible in our case.
 
-Looking further, we were charmed by [Serpentine Galleries](https://www.serpentinegalleries.org/)’ approach. A few years ago, they debuted their [Mobile Tours](https://danielfelstead.com/work/serpentine-galleries-serpentine-mobile-tours): as visitors connected their mobile devices to the on-site wifi, the browser would fire up and offer access to additional content – artist interviews, editorials, and curatorial tours.
+Looking further, we were charmed by [Serpentine Galleries](https://www.serpentinegalleries.org/)’ approach (image below). A few years ago, they debuted their [Mobile Tours](https://danielfelstead.com/work/serpentine-galleries-serpentine-mobile-tours): as visitors connected their mobile devices to the on-site wifi, the browser would fire up and offer access to additional content – artist interviews, editorials, and curatorial tours.
 
 ![Serpentine Galleries Mobile Tours interface]({{site.baseurl}}{{page.imgpath}}serpentine-app.jpg)
 
@@ -34,7 +34,7 @@ We very much liked the [Bring Your Own Device](https://en.wikipedia.org/wiki/Bri
 
 Although the Serpentine Galleries app looks good from a visual design standpoint, a downside was the rather complex way of navigating inside the app. I recalled using it a few years ago, and being left frustrated.
 
-Another interesting take on digital visitor tools came from the [Hirshhorn Museum](https://hirshhorn.si.edu/). They created the [Hirshhorn Eye](https://hirshhorn.si.edu/hi/) (in short called Hi), a native mobile app that allows visitors to scan works of art as they wander through the galleries. Upon scanning, a video of the artist appears, giving more context about the piece of art.
+Another interesting take on digital visitor tools came from the [Hirshhorn Museum](https://hirshhorn.si.edu/). They created the [Hirshhorn Eye](https://hirshhorn.si.edu/hi/) (in short called Hi), a native mobile app that allows visitors to scan works of art as they wander through the galleries. Upon scanning, a video of the artist appears, giving more context about the piece of art. Here's what that looks like:
 
 ![The Hirshhorn Eye app: visitors scan the artwork upon which a video of the artist appears.]({{site.baseurl}}{{page.imgpath}}hirschhorn-eye.jpg)
 
@@ -58,7 +58,9 @@ All of this led us to believe that there had to be a simpler way for digital to 
 
 ## Back to basics: audio only
 
-And so we dug deeper. We loved the simple audio-only approach by MOMA and [SF MOMA’s mobile apps](https://medium.com/@kzellmer_15704/reinventing-the-audio-guide-experience-the-sf-moma-app-58f912d64892): returning to the very concept of an audio guide felt right. No distracting video, no additional images, no exhaustive supplementary long-reads… An audio guide allows visitors to fully focus their eyes on the artwork, dim their phone screens, and just listen to a short audio snippet to get more context.
+And so we dug deeper. We loved the simple audio-only approach by MOMA and [SF MOMA’s mobile apps](https://medium.com/@kzellmer_15704/reinventing-the-audio-guide-experience-the-sf-moma-app-58f912d64892): returning to the very concept of an audio guide felt right. No distracting video, no additional images, no exhaustive supplementary long-reads… An audio guide allows visitors to fully focus their eyes on the artwork, dim their phone screens, and just listen to a short audio snippet to get more context. 
+
+Here's screens showing the interface of SF MOMA's audio app:
 
 ![Sample screens from the SF MOMA app]({{site.baseurl}}{{page.imgpath}}sfmoma-screens.jpg)
 
@@ -68,7 +70,7 @@ However, in the cases of MOMA and SF MOMA, people still have to download native 
 
 ## The beauty of a Progressive Web App (PWA)
 
-And so, following [a super interesting example by the Whitney](https://whitney.org/visit/mobile-guide), we came up with an audio guide that exists as a [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_application). A PWA is basically a website that adopts app-like behavior by using forthcoming technologies.
+And so, following [a super interesting example by the Whitney](https://whitney.org/visit/mobile-guide), we came up with an audio guide that exists as a [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_application). A PWA is basically a website that adopts app-like behavior by using forthcoming technologies. Here's what it looks like:
 
 ![Mockups of the audio guide Progressive Web App (PWA) we designed and developed for ING.]({{site.baseurl}}{{page.imgpath}}ing-pwa-screens-base-design.jpg)
 
@@ -90,7 +92,7 @@ A PWA has an additional advantage: since it’s available on a unique url, you c
 
 A QR code is a peculiar thing which I honestly used to avoid as much as possible. It used to be an ugly and clumsy way of linking the physical to a webpage: people needed to install a QR scanning app to be able to use them.
 
-However, recent versions of iOS and Android have [a QR scanner built in](https://support.apple.com/en-us/HT208843). You can simply point your phone’s camera at the QR code, and your phone will ask you to visit the associated url automatically. There’s no need to install a third-party app anymore. That makes QR codes actually quite handy nowadays.
+However, recent versions of iOS and Android have [a QR scanner built in](https://support.apple.com/en-us/HT208843). You can simply point your phone’s camera at the QR code, and your phone will ask you to visit the associated url automatically (see picture below). There’s no need to install a third-party app anymore. That makes QR codes actually quite handy nowadays.
 
 ![iOS detects QR codes automatically and prompts you to visit the linked website.]({{site.baseurl}}{{page.imgpath}}ios-qr-codes.jpg)
 
@@ -104,7 +106,7 @@ A bonus feature of QR codes is that you can track their usage. By hooking the QR
 
 ## Scanning artworks
 
-All QR codes at the entrance and in the visitor guide link visitors to the home page of the audio guide PWA. Most people understand how to use the audio guide from that point onwards. On the artwork overview screen, we made a deliberate decision to show the artwork only: no distracting artist names, titles, or additional metadata. As the visitor comes face-to-face with each work of art in the gallery, the photos on the webpage prove simple enough for visitors to quickly open the right artwork on the app.
+All QR codes at the entrance and in the visitor guide link visitors to the home page of the audio guide PWA. Most people understand how to use the audio guide from that point onwards. On the artwork overview screen (the middle screen in the mockups below), we made a deliberate decision to show the artwork only: no distracting artist names, titles, or additional metadata. As the visitor comes face-to-face with each work of art in the gallery, the photos on the webpage prove simple enough for visitors to quickly open the right artwork on the app.
 
 ![The middle mockup shows the artwork overview screen. As visitors are now face-to-face with the artwork, it is easy to find the piece of art they are looking for.]({{site.baseurl}}{{page.imgpath}}ing-pwa-screens-base-design.jpg)
 
