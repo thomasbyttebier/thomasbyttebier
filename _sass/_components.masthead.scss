@@ -31,12 +31,10 @@
 
     /**
      * 1) If it's an h1 element, overwrite base.type.css.
-     * 2) If it's no h1 element, make it bold.
      */
 
     .c-masthead__title {
         font-size: inherit;
-        font-weight: 700; /* [2] */
     }
 
     /**
