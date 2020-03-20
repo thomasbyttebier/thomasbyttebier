@@ -24,6 +24,8 @@ Any feedback is welcome. We're also on [Twitter as Opgemerkt](https://twitter.co
 
 ## All Opgemerkt episodes released so far (newest first)
 
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/6864d0b7-68aa-4ea2-93b1-ef01c0a66cab?dark=false"></iframe>
+
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/018aad77-22b2-4409-9d97-c9504806dc11?dark=false"></iframe>
 
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/47bef2a5-38a8-4a8f-94b8-601638d0dd5d?dark=false"></iframe>
