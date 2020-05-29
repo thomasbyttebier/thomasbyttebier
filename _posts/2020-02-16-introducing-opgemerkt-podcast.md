@@ -24,6 +24,18 @@ Any feedback is welcome. We're also on [Twitter as Opgemerkt](https://twitter.co
 
 ## All Opgemerkt episodes released so far (newest first)
 
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f5d756aa-0d3a-4526-af75-2ecc892a014c?dark=false"></iframe>
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/3cf51cc8-3b2a-4109-a8c5-57cbf2f69671?dark=false"></iframe>
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/624a9cfc-1e04-474a-b2d7-1393a0fad1cf?dark=false"></iframe>
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/6120602a-dd97-4305-9c43-45fa66bcd268?dark=false"></iframe>
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/b171c9dc-34ae-4872-8ace-f1bbcee970ea?dark=false"></iframe>
+
+<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/1ba01690-bef7-4518-bfc6-c20f3d5c8458?dark=false"></iframe>
+
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f787eaa1-9388-4930-88ae-8389c50877a6?dark=false"></iframe>
 
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/6864d0b7-68aa-4ea2-93b1-ef01c0a66cab?dark=false"></iframe>

@@ -58,7 +58,7 @@ All of this led us to believe that there had to be a simpler way for digital to 
 
 ## Back to basics: audio only
 
-And so we dug deeper. We loved the simple audio-only approach by MOMA and [SF MOMA’s mobile apps](https://medium.com/@kzellmer_15704/reinventing-the-audio-guide-experience-the-sf-moma-app-58f912d64892): returning to the very concept of an audio guide felt right. No distracting video, no additional images, no exhaustive supplementary long-reads… An audio guide allows visitors to fully focus their eyes on the artwork, dim their phone screens, and just listen to a short audio snippet to get more context. 
+And so we dug deeper. We loved the simple audio-only approach by MOMA and [SF MOMA’s mobile apps](https://medium.com/@kzellmer_15704/reinventing-the-audio-guide-experience-the-sf-moma-app-58f912d64892): returning to the very concept of an audio guide felt right. No distracting video, no additional images, no exhaustive supplementary long-reads… An audio guide allows visitors to fully focus their eyes on the artwork, dim their phone screens, and just listen to a short audio snippet to get more context.
 
 Here's screens showing the interface of SF MOMA's audio app:
 
@@ -129,14 +129,14 @@ A few simple dev tricks made sure that the app is still interesting in this case
 
 ## Linking the app experience to the concept of the exhibition
 
-The title of the exhibition is *Love. Hate. Debate.* As I explained, the question on the exhibit labels that gets repeated in the audio guide is directly linked to this exhibition title. 
+The title of the exhibition is *Love. Hate. Debate.* As I explained, the question on the exhibit labels that gets repeated in the audio guide is directly linked to this exhibition title.
 
 But we even go a step further in the app: at the bottom of each page, visitors can vote for whether they love or hate the artwork in a very simple and playful, almost Tinder-like way. After casting their votes, we invite them to join the debate on Instagram.
 
 Here's a quick video mockup of that interaction:
 
 <div class="o-media-container">
-<iframe class="o-media-container__media" src="https://www.youtube.com/embed/AEmjyEW7s8A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe class="o-media-container__media" src="https://www.youtube.com/embed/AEmjyEW7s8A?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 ## Gathering feedback
