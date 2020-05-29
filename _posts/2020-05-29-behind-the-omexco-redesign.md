@@ -8,6 +8,8 @@ permalink: /blog/:title
 featured: false
 excerpt: Here's a few key elements of the strategic thought process behind redesigning Omexco's website.
 ---
+![Omexco website on mobile screens]({{site.baseurl}}{{page.imgpath}}omexco-web-1.jpg)
+
 [Omexco](https://omexco.com) is a Belgian brand of fine wallcoverings, founded in 1976. Distributed world-wide and with clients that include Louis Vuitton and Maison Martin Margiela, quality and luxury are at the core of everything they do.
 
 And yet, Omexco's brand communication never really lived up to the expectations of the respected company they embody. This is where [Base](https://basedesign.com) came in. We first worked on a clear-cut communication strategy and then built a new visual identity off of it. Simultaneously we fully re-thought their [website](https://omexco.com). The obvious goal was to bring the brand's public perception closer to who they truly are.
