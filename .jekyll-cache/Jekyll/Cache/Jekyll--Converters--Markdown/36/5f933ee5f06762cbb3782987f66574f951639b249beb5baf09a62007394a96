@@ -1,0 +1,83 @@
+I"�<p><img src="/assets/images/2020-11-24/me-family-phones.png" alt="Me Familly exhibition website on mobile screens" /></p>
+
+<h2 id="behind-the-design-of-me-family">Behind the design of Me, Family</h2>
+
+<p>Let’s be real: nothing will ever replace the powerful emotional connection that takes place when face-to-face with a good work of art. But when a pandemic forces us into social distancing, the web does offer interesting opportunities.</p>
+
+<p>Earlier this year, struck by a national lockdown, the Museum of Contemporary Art of Luxembourg (<a href="https://www.mudam.com/">Mudam</a>) had to cancel their ambitious forthcoming group exhibition called <em>Me, Family</em>. They asked <a href="https://basedesign.com">Base Design</a> to rethink the show into a web-accessible format. An interesting brief that led us to question what it means to do an exhibition on screens.</p>
+
+<p>Today’s standards for online exhibitions are not overly exciting. A lot of art galleries and fairs seem to settle on samey white web pages showing a list of artworks. Museums on the other hand appear stuck trying to replicate physical visits on screens, resulting in awkward street-view like navigation patterns and overall clumsy experiences. It doesn’t feel right.</p>
+
+<p><em>Me, Family</em> had to explore a different territory. We wanted an exhibition format that felt native to the web as a medium; but most importantly we wanted to design an experience that put the art up front and is conceptually rooted in the curatorial story of the exhibition.</p>
+
+<h2 id="the-story-of-me-family">The story of Me, Family</h2>
+
+<p>So what is that story? What is <em>Me, Family</em> about? In a nutshell, the group exhibition is intended as a portrait of humanity at the beginning of the 21st century. Each artist comes with a different reflection on the topic. In his typical style, curator <a href="https://www.instagram.com/thebonamist/">Francesco Bonami</a> has a pretty straightforward view on the topic too, as he explains eloquently in <a href="https://mefamily.mudam.com/about">a 4 minute audio fragment</a>. Here’s a quote:</p>
+
+<blockquote>
+  <blockquote>
+    <p>A world that once looked like a big, happy, delusional family now resembles a huge, interconnected, dysfunctional tribe whose members, day by day, share each others’ narcissistic self-displays rather than their dreams, desires, and desperations.</p>
+  </blockquote>
+</blockquote>
+
+<p>The man has a point, right?</p>
+
+<h2 id="the-concept-driving-the-digital-exhibition">The concept driving the digital exhibition</h2>
+
+<p>And so, as <em>Me, Family</em> is in essence a show about humanity today, we took it quite literally. We pushed the tech and created a website that brings in humans from all over the world, in a way that is very… today: real-time, fast, collaborative and noisy.</p>
+
+<p>Arriving at the exhibition, you are invited to create a social media like avatar using your selfie cam. It’s a little disorienting since it’s not just a static picture but an always-on live video stream. You can choose from a number of distorting AR filters that determine how others get to see you, rendering you semi public, semi private.</p>
+
+<div class="o-media-container">
+<video autoplay="" loop="" muted="" class="o-media-container__media">
+    <source src="/assets/images/2020-11-24/me-family-filter-screen.mp4" type="video/mp4" />
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</div>
+
+<p>Next up you land in a cacophony of audio and imagery. You’ll see looping excerpts of video artworks and artwork images by contemporary artists like Cindy Sherman, Simon Fujiwara, Rudolf Stingel and Thomas Hirschhorn. While seeing the art, you’ll see and hear the live stream avatars of all other visitors currently online.</p>
+
+<div class="o-media-container">
+<video autoplay="" loop="" muted="" class="o-media-container__media">
+    <source src="/assets/images/2020-11-24/me-family-index.mp4" type="video/mp4" />
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</div>
+
+<p>The other visitors help shape your experience of the exhibition, while you also become an important actor in the exhibition experience to others. In essence you’re not just a visitor anymore, you’ve become a crucial part of <em>Me, Family</em>.</p>
+
+<div class="o-media-container">
+<video autoplay="" loop="" muted="" class="o-media-container__media">
+    <source src="/assets/images/2020-11-24/me-family-avatars.mp4" type="video/mp4" />
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</div>
+
+<h2 id="artworks">Artworks</h2>
+
+<p>The platform’s biggest attraction is the art of course. Cindy Sherman, Simon Fujiwara, Rudolf Stingel, Thomas Hirschhorn and 20 other artists raise questions on what it means to be a part of humanity today. While <em>Me, Family</em> presents itself a contemporary place; messy and loud, we designed it so visitors can enjoy the artworks free of any distractions too, fully respecting the integrity of the artworks.</p>
+
+<p><img src="/assets/images/2020-11-24/me-family-sherman.jpg" alt="Cindy Sherman Me Family artwork page" /></p>
+
+<p>A majority of artworks in the exhibition are either videos or photos, formats that work well in an online format. We learned that most visitors find it surprisingly natural to watch (sometimes lengthy) video art on a computer screen in the intimacy of their homes.</p>
+
+<h2 id="become-a-lasting-part-of-me-family">Become a lasting part of Me, Family</h2>
+
+<p>And like any good exhibition, <em>Me, Family</em> is an invitation to debate. That’s why we allow everyone to leave a ten second video reaction to the artworks. In doing this, you become part of <em>Me, Family</em> forever. Your reaction will loop on the artwork page indefinitely, and add up to the testimonial of humankind as a family.</p>
+
+<p><img src="/assets/images/2020-11-24/me-family-leave-thought.jpg" alt="Leave a video thought mobile screens on the me family platform" /></p>
+
+<p>Needless to say, this project was quite a technical challenge. I will give a more in-depth look at the tech behind the scenes in a follow-up post in the coming weeks.</p>
+
+<p><a href="https://mefamily.mudam.com">Me, Family</a> is open as an online platform until March 21, 2021. You’re welcome.</p>
+
+<h3 id="credits">Credits</h3>
+
+<p>The exhibition is curated by Francesco Bonami, Emanuela Mazzonis di Pralafera and Luigi Alberto Cippini assisted by Sarah Beaumont and commissioned by Mudam Luxembourg.</p>
+
+<p>Artists are Doug Aitken, Sophia Al Maria, Yuri Ancarani, Darren Bader, Lara Baladi, Clément Cogitore, Christian Falsnaes, Harun Farocki, Simon Fujiwara, Ga Ram Kim, Thomas Hirschhorn, Olia Lialina, Karolina Markiewicz &amp; Pascal Piron, Eva &amp; Franco Mattes, Li Ming, Mario Pfeifer, Wong Ping, Cheng Ran, Cindy Sherman, Marianna Simnett, Rudolf Stingel, Jordan Wolfson.</p>
+
+<p>Creative Direction: Thomas Byttebier, Thierry Brunfaut<br />
+Design: Sander Vermeulen<br />
+Dev &amp; tech direction: Andrey Starkov and <a href="https://basedesign.com">Base Design</a></p>
+:ET
