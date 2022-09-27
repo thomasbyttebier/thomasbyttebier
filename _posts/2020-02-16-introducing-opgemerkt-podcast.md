@@ -19,3 +19,5 @@ We don't do edits and we don't prepare extensively. Above all it has to stay fun
 You can subscribe on [Apple Podcasts](https://podcasts.apple.com/be/podcast/opgemerkt/id1496559514?l=nl&i=1000465229575), [Spotify](https://open.spotify.com/show/5cDsraxmbx7B0B33O1xz5L?si=WipTG2yJQOu0tQIT-v5wxw) or any other popular podcasting channel. There is also [a web link to the podcast](https://opgemerkt.simplecast.com). We're also on [Twitter as Opgemerkt](https://twitter.com/opgemerktpod).
 
 All feedback is welcome.
+
+Update: after 43 episodes and a lot of fun, this podcast is now discontinued.
