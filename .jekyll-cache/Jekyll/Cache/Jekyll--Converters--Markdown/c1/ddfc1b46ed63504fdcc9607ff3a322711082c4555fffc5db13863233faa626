@@ -1,4 +1,4 @@
-I"T><p>For years I’ve struggled with CSS. Remember <a href="https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/">Damien Newman’s squiggle</a> as a visual representation of the design process? Flip it and you’ll have a perfect depiction of any CSS project:</p>
+I"h@<p>For years I’ve struggled with CSS. Remember <a href="https://revisionlab.wordpress.com/that-squiggle-of-the-design-process/">Damien Newman’s squiggle</a> as a visual representation of the design process? Flip it and you’ll have a perfect depiction of any CSS project:</p>
 
 <p><img src="/assets/images/2015-08-31/css-project.png" alt="A perfect depictation of any CSS project" /></p>
 
@@ -40,7 +40,7 @@
 
 <p>Back to itcss layers. As seen in the image above, next up are <em>components</em>. A component is a  reusable chunk of UI that is clearly designed, as opposed to an object. Its name gets more explicit and clearly refers to a block of UI: pagination, buttons, modals, icons… When well-written, you can take a component and paste it everywhere in your site. It’ll work and look good.</p>
 
-<p>The final layer of itcss is what Harry Roberts calls trumps. Other CSS methodologies may call them utilities, helpers or overrides and for some reason I started to call them <em>wins</em>. There’s going to be a lot of <code class="highlighter-rouge">!important</code> statements in here and that’s ok as you want these to win over whatever you declared before. It’s things like <code class="highlighter-rouge">.u-size-1-of-2</code>, <code class="highlighter-rouge">.u-text-right</code> or <code class="highlighter-rouge">.u-visually-hidden</code> that basically do one thing and you add to one element at a time. (They may scare you at first because they’re only one step away from inline CSS, but every project just needs at least some of these.) Put these wins together in thematically ordered files such as <em>wins.show-hide.css</em>, <em>wins.alignment.css</em> or <em>wins.widths.css</em>.</p>
+<p>The final layer of itcss is what Harry Roberts calls trumps. Other CSS methodologies may call them utilities, helpers or overrides and for some reason I started to call them <em>wins</em>. There’s going to be a lot of <code class="language-plaintext highlighter-rouge">!important</code> statements in here and that’s ok as you want these to win over whatever you declared before. It’s things like <code class="language-plaintext highlighter-rouge">.u-size-1-of-2</code>, <code class="language-plaintext highlighter-rouge">.u-text-right</code> or <code class="language-plaintext highlighter-rouge">.u-visually-hidden</code> that basically do one thing and you add to one element at a time. (They may scare you at first because they’re only one step away from inline CSS, but every project just needs at least some of these.) Put these wins together in thematically ordered files such as <em>wins.show-hide.css</em>, <em>wins.alignment.css</em> or <em>wins.widths.css</em>.</p>
 
 <p>As for me, itcss has proven to be great. Each CSS rule has a clear place in the itcss hierarchy. Team members know where to look for CSS rules and above all: they know where to put new rules. Our codebase will never get more complicated than itcss itself, it can only get bigger. Every filename clearly indicates what itcss layer it’s part of. When written well, it doesn’t matter what order the files are loaded in on the page, as long as you have the generic layer files first, followed by the base layer files, the object files and so on, all the way to the wins.</p>
 
@@ -52,7 +52,7 @@
 
 <h2 id="namespaced-css">Namespaced CSS</h2>
 
-<p>Your CSS will now appear well-written and organized. But it gets better. If you namespace your CSS, the classes in your HTML will indicate the itcss layer they reside in. That makes your HTML a lot more readable, as everyone in the project will clearly see where a class comes from, just by looking at a piece of HTML. Classes that live in itcss’s objects layer get prepended with o-. Think of <code class="highlighter-rouge">.o-grid</code> and <code class="highlighter-rouge">.o-scrollable</code>. Component classes are namespaced with c-. I have classes like <code class="highlighter-rouge">.c-icon</code>, <code class="highlighter-rouge">.c-form-control</code> and <code class="highlighter-rouge">.c-btn</code>. Wins are prefixed with u- (or w- if that makes more sense). Also, any possible JavaScript is tied to classes prefixed with js-.</p>
+<p>Your CSS will now appear well-written and organized. But it gets better. If you namespace your CSS, the classes in your HTML will indicate the itcss layer they reside in. That makes your HTML a lot more readable, as everyone in the project will clearly see where a class comes from, just by looking at a piece of HTML. Classes that live in itcss’s objects layer get prepended with o-. Think of <code class="language-plaintext highlighter-rouge">.o-grid</code> and <code class="language-plaintext highlighter-rouge">.o-scrollable</code>. Component classes are namespaced with c-. I have classes like <code class="language-plaintext highlighter-rouge">.c-icon</code>, <code class="language-plaintext highlighter-rouge">.c-form-control</code> and <code class="language-plaintext highlighter-rouge">.c-btn</code>. Wins are prefixed with u- (or w- if that makes more sense). Also, any possible JavaScript is tied to classes prefixed with js-.</p>
 
 <p>Again, this whole idea comes from Harry Roberts. <a href="http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/">Here’s his take on namespacing CSS classes.</a></p>
 
@@ -63,20 +63,20 @@
 <p>BEM’s naming convention follows this pattern:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">.block {}</code></li>
-  <li><code class="highlighter-rouge">.block__element {}</code></li>
-  <li><code class="highlighter-rouge">.block--modifier {}</code></li>
+  <li><code class="language-plaintext highlighter-rouge">.block {}</code></li>
+  <li><code class="language-plaintext highlighter-rouge">.block__element {}</code></li>
+  <li><code class="language-plaintext highlighter-rouge">.block--modifier {}</code></li>
 </ul>
 
-<p><code class="highlighter-rouge">.block</code> represents an object or component, a piece of code that stands on its own and can be dropped anywhere on the page. Think of <code class="highlighter-rouge">.dropdown</code> for instance (or even better: <code class="highlighter-rouge">c-dropdown</code>).
-<code class="highlighter-rouge">.block__element</code> represents a descendant of <code class="highlighter-rouge">.block</code>. Think of <code class="highlighter-rouge">.c-dropdown__link</code>, <code class="highlighter-rouge">.c-dropdown__button</code> or <code class="highlighter-rouge">.c-dropdown__menu</code> for instance.
-<code class="highlighter-rouge">.block--modifier</code> represents a different state or version of <code class="highlighter-rouge">.block</code>. Think of <code class="highlighter-rouge">.c-dropdown--checkmarks</code> for what could be a version of a dropdown that allows for checkmarks to be placed next to the dropdown’s menu items. Another example could be <code class="highlighter-rouge">.c-dropdown--large</code> for a larger version of the dropdown. It’s both small variations on the base block.</p>
+<p><code class="language-plaintext highlighter-rouge">.block</code> represents an object or component, a piece of code that stands on its own and can be dropped anywhere on the page. Think of <code class="language-plaintext highlighter-rouge">.dropdown</code> for instance (or even better: <code class="language-plaintext highlighter-rouge">c-dropdown</code>).
+<code class="language-plaintext highlighter-rouge">.block__element</code> represents a descendant of <code class="language-plaintext highlighter-rouge">.block</code>. Think of <code class="language-plaintext highlighter-rouge">.c-dropdown__link</code>, <code class="language-plaintext highlighter-rouge">.c-dropdown__button</code> or <code class="language-plaintext highlighter-rouge">.c-dropdown__menu</code> for instance.
+<code class="language-plaintext highlighter-rouge">.block--modifier</code> represents a different state or version of <code class="language-plaintext highlighter-rouge">.block</code>. Think of <code class="language-plaintext highlighter-rouge">.c-dropdown--checkmarks</code> for what could be a version of a dropdown that allows for checkmarks to be placed next to the dropdown’s menu items. Another example could be <code class="language-plaintext highlighter-rouge">.c-dropdown--large</code> for a larger version of the dropdown. It’s both small variations on the base block.</p>
 
 <p>Using BEM, your HTML is now communicating more than ever to whoever is reading it. Just by looking at a piece of HTML, you can see how everything is related. An element may be the start of a component, its classes might suggest it’s a part of a block, or it might be a variant on a component.</p>
 
 <p>As an example, consider the following piece of HTML:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="o-grid"&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="o-grid"&gt;
   &lt;div class="o-grid__cell u-size-1-of-2"&gt;
     &lt;div class="c-dropdown c-dropdown--large js-toggle-colors"&gt;(...)&lt;/div&gt;
   &lt;/div&gt;
@@ -86,9 +86,9 @@
 <p>We can learn a lot from the HTML alone:</p>
 
 <ul>
-  <li>The outer <code class="highlighter-rouge">div</code> sets up a grid. I can find the grid CSS rules in the objects layer, most likely in the file objects.grid.css.</li>
-  <li>The next <code class="highlighter-rouge">div</code> is a descendant of the grid object. It doesn’t make sense on its own. Its CSS rules are in the same CSS file: objects.grid.css. There’s a sizing utility from the itcss wins layer added to it (making it half the width of its parent).</li>
-  <li>The inner <code class="highlighter-rouge">div</code> is a dropdown component. I can find the CSS rules in the itcss components layer, most likely in the file components.dropdowns.css.</li>
+  <li>The outer <code class="language-plaintext highlighter-rouge">div</code> sets up a grid. I can find the grid CSS rules in the objects layer, most likely in the file objects.grid.css.</li>
+  <li>The next <code class="language-plaintext highlighter-rouge">div</code> is a descendant of the grid object. It doesn’t make sense on its own. Its CSS rules are in the same CSS file: objects.grid.css. There’s a sizing utility from the itcss wins layer added to it (making it half the width of its parent).</li>
+  <li>The inner <code class="language-plaintext highlighter-rouge">div</code> is a dropdown component. I can find the CSS rules in the itcss components layer, most likely in the file components.dropdowns.css.</li>
   <li>The next class clearly shows we’re displaying a modifier of the dropdown component, namely a large variant.</li>
   <li>There’s JavaScript tied to the dropdown component. It’s ok to manipulate all classes but the js- one. That would break JavaScript functionality.</li>
 </ul>
