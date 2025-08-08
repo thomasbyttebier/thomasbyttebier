@@ -6,10 +6,14 @@ redirect_from:
 no-title: true # Set to true if the page content has no h1 element. Because if it has, we don't want the header text to be a h1.
 ---
 
-I am a freelance digital designer, currently Digital Director at [Base Design](https://basedesign.com) in Brussels. I am also lector digital design at [Luca School of Arts](http://www.luca-arts.be) in Ghent.
+I'm a digital experience strategist & designer based in Belgium.
 
-Here's a few key articles on [my blog]({{ site.baseurl }}/blog) that should give you an overall idea of my thoughts on branding, digital and design:
+After 10 years as Digital Director at [Base Design](https://basedesign.com), I founded [Uncommon Practice](https://uncommonpractice.works) in 2025: a studio that brings stories alive through design and emerging technology. We work with forward-thinking brands and cultural institutions to create experiences (online, offline, hybrid) that feel different but authentic.
 
-{% include featured-posts.html %}
+Over the years, I've had the chance to collaborate with clients such as Dior, Bozar, KANAL Centre Pompidou, Studio Brussel, NTGent, Axel Vervoordt, MoMu Antwerp, La Monnaie, RSC Anderlecht, Xavier Hufkens, Haus Der Kunst, Fondation Cartier and Warner Music Group.
 
-[Send me an email](mailto:{{ site.email | encode_email }}) if you want to meet. I live in the beautiful city of Ghent in Belgium. You can [find me talking design on Twitter](https://twitter.com/bytte) as well. Occasionally I post on [LinkedIn](https://www.linkedin.com/in/thomasbyttebier/).
+I occassionaly give talks and guest lectures on design, branding and digital thinking. I was a guest at Kikk Festival, Us By Night, Luca School of Arts, MuseumNext Digital Summit, Swiss Interactive Media Design Days, IxD Lab Switzerland, Arteveldehogeschool, Solvay ULB-VUB and more.
+
+I've kept [a blog]({{ site.baseurl }}/blog) since forever. Of course not every post still feels relevant, yet one piece in particular continues to resonate: {% include featured-posts.html %}.
+
+Feel free to [get in touch](mailto:{{ site.email | encode_email }}). You'll find me sharing thoughts on [LinkedIn](https://www.linkedin.com/in/thomasbyttebier/) from time to time.

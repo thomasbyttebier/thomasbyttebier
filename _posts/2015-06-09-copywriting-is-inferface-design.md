@@ -4,7 +4,7 @@ permalink: /blog/:title
 title: Copywriting is interface design
 date: 2015-06-09
 imgpath: /assets/images/2015-06-09/
-featured: true
+featured: false
 excerpt: Most of us have grown used to discussing design with the developers on the team. We’ve seen it lead to better products. However, copywriters and translators mostly reside in a galaxy far away. That’s no good. We should discuss design together. We really should.
 ---
 I’ve [said it before](http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface): clarity is the most important value of good user interface design. Earlier [I blogged about icons](http://thomasbyttebier.be/blog/the-best-icon-is-a-text-label) and [discussed UI typography](http://thomasbyttebier.be/blog/the-best-ui-typeface-goes-unnoticed). Today I’ll cover copy. Because not only the face of text in apps matters, semantics obviously do too. What good is a highly legible typeface if the text it sets conveys an unclear message?

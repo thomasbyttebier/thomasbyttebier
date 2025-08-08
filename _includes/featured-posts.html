@@ -1,8 +1,2 @@
 {% assign featured-posts = site.posts | where: "featured", "true" %}
-{% for item in featured-posts %}
-  {% if forloop.first %}<ul class="c-list">{% endif %}
-    <li class="c-list__item">
-        <a href="{{ item.url }}">{{ item.title }}</a>
-    </li>
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
+{% for item in featured-posts %}<a href="{{ item.url }}">{{ item.title }}</a>{% endfor %}

@@ -5,7 +5,7 @@ date:   2015-03-23
 imgpath: /assets/images/2015-03-23/
 metaimage: washing-icons.png
 permalink: /blog/:title
-featured: true
+featured: false
 excerpt: "Icons are an essential part of many user interfaces. The thing is: more often than not, they break clarity. Just replace them by a text label. Or an icon plus label."
 ---
 

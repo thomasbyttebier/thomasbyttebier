@@ -30,20 +30,6 @@
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% elsif page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
 
 
-    <!-- additional twitter meta tags -->
-{% if page.layout == 'post' %}
-    <meta name="twitter:card" content="summary_large_image">
-    {% if page.metaimage %}<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.imgpath }}{{ page.metaimage }}">{% endif %}
-{% else %}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/thomas-byttebier-avatar-400-web.jpg">
-    <meta name="twitter:image:alt" content="Avatar of Thomas Byttebier">
-{% endif %}
-    <meta name="twitter:site" content="@bytte">
-    <meta name="twitter:creator" content="@bytte">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% endif %} — {{ site.title }}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% elsif page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
-
 
 
 </head>
