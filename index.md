@@ -12,6 +12,6 @@ For a decade I led Digital at [Base Design](https://basedesign.com). In 2025, I 
 
 I’ve been lucky to collaborate with clients like Dior, Bozar, KANAL Centre Pompidou, Studio Brussel, NTGent, Axel Vervoordt, MoMu Antwerp, RSC Anderlecht, Fondation Cartier and Warner Music Group. I also enjoy sharing ideas at conferences and schools, from Kikk Festival and Us By Night to MuseumNext and Luca School of Arts.
 
-And I still write. My [a blog]({{ site.baseurl }}/blog) has been running for years; not everything has aged gracefully, but {% include featured-posts.html %} continues to find readers.
+And I still write. My [blog]({{ site.baseurl }}/blog) has been running for years; not everything has aged gracefully, but {% include featured-posts.html %} continues to find readers.
 
-Feel free to [reach out](mailto:{{ site.email | encode_email }}) or find me sharing thoughts on [LinkedIn](https://www.linkedin.com/in/thomasbyttebier/).
+Feel free to [reach out](mailto:{{ site.email | encode_email }}), or find me sharing thoughts on [LinkedIn](https://www.linkedin.com/in/thomasbyttebier/).

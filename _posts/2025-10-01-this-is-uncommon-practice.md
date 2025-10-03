@@ -9,9 +9,9 @@ featured: false
 excerpt: A new online home for Uncommon Practice.
 ---
 
-Today, we launched [the online home for Uncommon Practice](https://uncommonpractice.works). It's a first step that is pretty exciting for us. Because finally, we really exist.
+Today, we launched [the online home for Uncommon Practice](https://uncommonpractice.works). It's a first step that is pretty exciting for us. Because finally, we truly exist.
 
-I made a 2 minute video to explain the behind-the-scenes :)
+I made a 2 minute video to explain the behind-the-scenes:
 
 <div class="o-media-container">
 	<video controls class="o-media-container__media">
@@ -19,6 +19,8 @@ I made a 2 minute video to explain the behind-the-scenes :)
 	</video>
 </div>
 
+Nice to meet you :)
+
 Thanks so much to everyone who has trusted us and supported us so far. We're just getting started.
 
-Sign up to [our newsletter](https://buttondown.com/uncommonpractice) to stay updated on all things Uncommon Practice.
+Sign up to the Uncommon Practice [newsletter](https://buttondown.com/uncommonpractice) to stay updated.
