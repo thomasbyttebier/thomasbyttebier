@@ -11,9 +11,9 @@ excerpt: Introducing Uncommon Practice, a digital experience studio. But differe
 
 Time for a new chapter.
 
-After 10 years as Digital Director at Base Design, I’ve decided to start something of my own.
+After 10 years as Digital Director at [Base Design](https://basedesign.com), I’ve decided to start something of my own.
 
-It’s called Uncommon Practice.
+It’s called [Uncommon Practice](https://uncommonpractice.works).
 
 A digital experience studio. But different. Questioning current formats, standards, and methods. Aiming for work that’s unusual but authentic. And future-facing.
 

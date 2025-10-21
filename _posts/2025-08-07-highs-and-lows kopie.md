@@ -20,7 +20,7 @@ OMG such a change!
 A month ago, this would’ve felt like a dream scenario.
 But now? Surprisingly… uncomfortable.
 
-And of course I know it’s all normal. Building a new creative studio takes time. And in many ways, it’s been a calculated choice. 
+And of course I know it’s all normal. Building [a new creative studio](https://uncommonpractice.works) takes time. And in many ways, it’s been a calculated choice. 
 
 But you can’t plan everything. I never anticipated the space to be filled by this tiny voice in my head asking: “Is this really normal? Am I doing enough? Was this the right choice? What matters most?”
 
